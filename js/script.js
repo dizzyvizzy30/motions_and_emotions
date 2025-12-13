@@ -1,28 +1,36 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const images = Array.from(document.querySelectorAll('.stacked-carousel-image'));
-    const totalImages = images.length;
+    // Revolving carousel logic (from previous step)
+    const revolvingImages = Array.from(document.querySelectorAll('.stacked-carousel-image'));
+    const totalRevolvingImages = revolvingImages.length;
+    let currentRevolvingIndex = 0;
 
-    // Function to update the carousel positions
-    const updateCarousel = (frontImageIndex) => {
-        images.forEach((image, i) => {
-            // Remove all position classes
+    const updateRevolvingCarousel = (frontImageIndex) => {
+        revolvingImages.forEach((image, i) => {
             image.classList.remove('position-1', 'position-2', 'position-3', 'position-4', 'position-5');
-
-            // Calculate the new position for each image
-            let newPosition = (i - frontImageIndex + totalImages) % totalImages + 1;
-            
-            // Re-assign the correct position class
+            let newPosition = (i - frontImageIndex + totalRevolvingImages) % totalRevolvingImages + 1;
             image.classList.add(`position-${newPosition}`);
         });
     };
 
-    // Add mouseover event listeners to each image
-    images.forEach((image, index) => {
+    revolvingImages.forEach((image, index) => {
         image.addEventListener('mouseover', () => {
-            updateCarousel(index);
+            updateRevolvingCarousel(index);
         });
     });
 
-    // Initialize the carousel with the first image at the front
-    updateCarousel(0);
+    if (revolvingImages.length > 0) {
+        updateRevolvingCarousel(0);
+    }
+
+
+    // About page alternating image logic
+    const aboutImages = document.querySelectorAll('.about-image');
+    if (aboutImages.length > 1) {
+        let currentAboutImageIndex = 0;
+        setInterval(() => {
+            aboutImages[currentAboutImageIndex].classList.remove('active');
+            currentAboutImageIndex = (currentAboutImageIndex + 1) % aboutImages.length;
+            aboutImages[currentAboutImageIndex].classList.add('active');
+        }, 1500); // 1.5 seconds
+    }
 });

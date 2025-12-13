@@ -60,25 +60,13 @@ body.hero-background {
 .logo-box {
     text-align: center;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
-.ai-coach-logo {
-    width: 50px; /* Adjust size as needed */
+.new-logo {
+    width: 200px; /* Adjust as needed */
     height: auto;
-    margin-bottom: 5px; /* Space between image and text */
-}
-
-.logo-main {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-size: 1.8rem;
-    background: linear-gradient(to right, #8B4513, #361E0E);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
 }
 
 /* Hero Content Styles */
@@ -155,7 +143,6 @@ body.hero-background {
 .philosophy-right-column {
     flex: 1;
     min-width: 300px;
-    /* Removed margin-left: 20px; */
 }
 
 .stacked-carousel-container {
@@ -248,381 +235,374 @@ body.hero-background {
 }
 
 .learn-more-btn:hover {
-
     background-color: #555;
-
 }
-
-
 
 /* Contact Page Styles */
-
 .contact-page-content {
-
     padding-top: 150px; /* Adjust for fixed header */
-
     background-color: #f8f8f8;
-
     color: #361E0E; /* Changed to darkest brown */
-
 }
-
-
 
 .contact-page-content .container {
-
-
-
     max-width: 1200px;
-
-
-
     margin: 0 auto;
-
-
-
     padding: 60px 40px;
-
-
-
 }
-
-
-
-
-
-
 
 .contact-columns {
-
-
-
     display: flex;
-
-
-
     gap: 60px;
-
-
-
     align-items: flex-start;
-
-
-
 }
-
-
-
-
-
-
 
 .contact-form-section {
-
-
-
     flex: 2; /* Takes up more space */
-
-
-
     padding: 0;
-
-
-
     text-align: left;
-
-
-
 }
-
-
-
-
-
-
 
 .buy-me-a-coffee-section {
-
-
-
     flex: 1; /* Takes up less space */
-
-
-
     padding: 40px;
-
-
-
     background-color: #fff;
-
-
-
     border-radius: 8px;
-
-
-
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-
-
-
     text-align: center;
-
-
-
 }
-
-
-
-
-
-
 
 .buy-me-a-coffee-section h2 {
-
-
-
     font-family: 'Playfair Display', serif;
-
-
-
     font-size: 2rem;
-
-
-
     margin-top: 0;
-
-
-
     margin-bottom: 15px;
-
     color: #361E0E; /* Changed to darkest brown */
-
 }
-
-
-
-
-
-
 
 .buy-coffee-btn {
-
-
-
     display: inline-block;
-
-
-
     background-color: #FFDD00; /* Yellow coffee button color */
-
-
-
     color: #000;
-
-
-
     padding: 12px 25px;
-
-
-
     text-decoration: none;
-
-
-
     font-weight: 700;
-
-
-
     border-radius: 5px;
-
-
-
     transition: background-color 0.3s ease;
-
-
-
 }
-
-
-
-
-
-
 
 .buy-coffee-btn:hover {
-
-
-
     background-color: #f0c_d00;
-
-
-
 }
-
-
-
-
-
-
 
 .contact-form-section h1 {
-
-
-
     font-family: 'Playfair Display', serif;
-
-
-
     font-size: 3rem;
-
-
-
     margin-bottom: 20px;
-
-
-
     text-align: left;
-
-
-
 }
-
-
-
-
-
-
 
 .contact-form-section p {
-
-
-
     font-size: 1.1rem;
-
-
-
     margin-bottom: 40px;
-
-
-
     color: #555;
-
-
-
     text-align: left;
-
-
-
 }
 
-
+.future-feature-note {
+    font-size: 0.95rem;
+    color: #888;
+    margin-top: -20px; /* Adjust spacing */
+    margin-bottom: 20px;
+    font-style: italic;
+    text-align: center;
+}
 
 .contact-form {
-
     display: flex;
-
     flex-direction: column;
-
     gap: 20px;
-
     text-align: left;
-
 }
-
-
 
 .form-group {
-
     display: flex;
-
     flex-direction: column;
-
 }
-
-
 
 .form-group label {
-
     font-family: 'Montserrat', sans-serif;
-
     font-size: 0.9rem;
-
     margin-bottom: 8px;
-
     color: #333;
-
 }
-
-
 
 .form-group input,
-
 .form-group textarea {
-
     padding: 12px;
-
     border: 1px solid #ccc;
-
     border-radius: 4px;
-
     font-family: 'Open Sans', sans-serif;
-
     font-size: 1rem;
-
 }
-
-
 
 .submit-btn {
-
     display: inline-block;
-
     background-color: #333;
-
     color: #fff;
-
     padding: 15px 30px;
-
     text-decoration: none;
-
     text-transform: uppercase;
-
     font-size: 0.9rem;
-
     letter-spacing: 1px;
-
     border: none;
-
     cursor: pointer;
-
     transition: background-color 0.3s ease;
-
     align-self: center; /* Center button */
-
     margin-top: 20px;
-
 }
-
-
 
 .submit-btn:hover {
-
     background-color: #555;
-
 }
 
-
-
 .main-footer-bottom {
-
     background-color: #333;
-
     color: #ecf0f1;
-
     text-align: center;
-
     padding: 20px 0;
-
     font-size: 0.9rem;
+}
 
+/* Blog Preview Page Styles */
+.blog-page-content {
+    padding-top: 150px;
+    background-color: #fff;
+    color: #361E0E;
+}
+
+.blog-page-content .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+.blog-main-title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    margin-bottom: 80px;
+}
+
+.blog-preview {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+
+.blog-preview-image-placeholder {
+    flex: 1;
+    min-height: 250px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.blog-preview-content {
+    flex: 2;
+}
+
+.blog-preview h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem; /* Slightly smaller for the new layout */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.blog-preview h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem; /* Slightly smaller */
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.blog-preview p {
+    font-size: 1rem; /* Slightly smaller */
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    font-style: italic;
+    color: #888;
+}
+
+/* About Page Styles */
+.about-page-content {
+    padding-top: 120px;
+    background-color: #fff;
+    color: #361E0E; /* Set default text color to darkest brown */
+}
+
+.about-section {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding: 80px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-top {
+    background-color: #f8f8f8;
+}
+
+.about-bottom {
+    background-color: #fff;
+}
+
+.about-image-placeholder {
+    flex: 1;
+    min-height: 500px;
+    position: relative; /* Make this a positioning context */
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.about-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* Smooth 1-second fade */
+}
+
+.about-image.active {
+    opacity: 1;
+}
+
+.about-text-content {
+    flex: 1;
+}
+
+.about-text-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #361E0E; /* Ensure color */
+}
+
+.about-text-content h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #361E0E; /* Ensure color */
+}
+
+.about-text-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #361E0E; /* Ensure color */
+}
+
+.about-blockquote {
+    background-color: #f0f0f0;
+    padding: 100px 40px;
+    text-align: center;
+    color: #361E0E; /* Ensure color for blockquote text */
+}
+
+.about-blockquote blockquote {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-style: italic;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    border: none;
+    padding: 0;
+}
+
+.about-blockquote footer {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #361E0E; /* Ensure color */
+}
+
+/* Services Page Styles */
+.services-page-content {
+    padding-top: 150px;
+    background-color: #fff;
+    color: #361E0E;
+}
+
+.services-page-content .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+.services-main-title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    margin-bottom: 80px;
+}
+
+.service-section {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+/* Alternate row layout */
+.service-section:nth-child(odd) .service-text-content {
+    order: 2;
+}
+.service-section:nth-child(odd) .service-image-placeholder {
+    order: 1;
+}
+
+.service-text-content {
+    flex: 1;
+}
+
+.service-text-content h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.service-text-content h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.service-text-content p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.service-image-placeholder {
+    flex: 1;
+    min-height: 300px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
