@@ -5,78 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Motions and Emotions</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <div class="container">
-            <div class="logo">Motions and Emotions</div>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+<body class="hero-background">
+
+    <header class="main-header">
+        <nav class="left-nav">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+            </ul>
+        </nav>
+        <div class="logo-container">
+            <div class="logo-box">
+                <a href="index.html"><img src="images/logo_transparent.png" alt="Motions and Emotions Logo" class="new-logo"></a>
+            </div>
         </div>
+        <nav class="right-nav">
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">PORTFOLIO +</a>
+                    <div class="dropdown-content">
+                        <a href="public-events.html">Public Events</a>
+                        <a href="private-events.html">Private Events</a>
+                        <a href="portraits.html">Portraits</a>
+                        <a href="landscapes-nature.html">Landscapes & Nature</a>
+                        <a href="architecture-cityscapes.html">Architecture & Cityscapes</a>
+                    </div>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="blog-preview.html">BLOG</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="home" class="hero-section">
-        <div class="hero-carousel">
-            <!-- Engagement photos will be loaded here -->
+    <main class="hero-content">
+        <div class="hero-text-container">
+            <h1 class="hero-title">Capturing Life As It Happens</h1>
+            <p class="hero-tagline">By Ashay Parikh</p>
         </div>
-        <div class="hero-text">
-            <h1>Capturing Life's Precious Moments</h1>
-            <a href="#portfolio" class="cta-button">View My Work</a>
-        </div>
-    </section>
+    </main>
 
-    <section id="showcase" class="showcase-section">
-        <div class="container">
-            <h2>Showcase</h2>
-            <div class="showcase-grid">
-                <!-- A few images from each category will be loaded here -->
+    <section class="philosophy-section-container">
+        <div class="philosophy-section-content">
+            <div class="philosophy-right-column">
+                <div class="stacked-carousel-container">
+                    <img src="images/engagement copy/ILCE-7RM4A (778).webp" alt="Photography stack 1" class="stacked-carousel-image" data-position="1">
+                    <img src="images/engagement copy/ILCE-7RM4A (814).webp" alt="Photography stack 2" class="stacked-carousel-image" data-position="2">
+                    <img src="images/engagement copy/ILCE-7RM4A (666).webp" alt="Photography stack 3" class="stacked-carousel-image" data-position="3">
+                    <img src="images/engagement copy/ILCE-7RM4A (822).webp" alt="Photography stack 4" class="stacked-carousel-image" data-position="4">
+                    <img src="images/nature/DSC02424.webp" alt="Photography stack 5" class="stacked-carousel-image" data-position="5">
+                </div>
+            </div>
+            <div class="philosophy-left-column">
+                <div class="philosophy-content">
+                    <p class="philosophy-subtitle">MY PHILOSOPHY</p>
+                    <h2 class="philosophy-headline">WE LIVE LIFE<br>THAT IS WORTH CAPTURING<br> </h2>
+                    <p class="philosophy-text">Greetings, I capture life as it happens. The gentle sway of a dress in the breeze, the blur of a cityscape at
+                            dusk, the unbridled laughter that moves through a family—these are the motions that tell our story. But just as important are the emotions 
+                            that fill those moments: the quiet joy in a lover's gaze, the heartfelt tear during a ceremony, the pure excitement of a child at play. My 
+                            passion is to capture both. I see photography not as a way to freeze time, but as a way to preserve the energy and feeling of life as it
+                            unfolds. It’s about bottling the beautiful chaos of movement and the profound stillness of emotion, creating images that are not just seen, but felt.</p>
+                    <a href="about.html" class="learn-more-btn">LEARN MORE ABOUT M&E</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="portfolio" class="portfolio-section">
-        <div class="container">
-            <h2>Portfolio</h2>
-            <div class="category-selection">
-                <button data-category="all">All</button>
-                <button data-category="air show">Air Show</button>
-                <button data-category="baby shower">Baby Shower</button>
-                <button data-category="engagement">Engagement</button>
-                <button data-category="nature">Nature</button>
-                <button data-category="sky scrapers">Sky Scrapers</button>
-            </div>
-            <div class="portfolio-grid">
-                <!-- A few images from each category will be loaded here -->
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="about-section">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>A little bit about Motions and Emotions.</p>
-        </div>
-    </section>
-
-    <footer id="contact">
-        <div class="container">
-            <h3>Contact Me</h3>
-            <p>Email: <a href="mailto:ashay.parikh@example.com">ashay.parikh@example.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/ashayparikh" target="_blank">linkedin.com/in/ashayparikh</a></p>
-            <p>&copy; 2025 Motions and Emotions. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

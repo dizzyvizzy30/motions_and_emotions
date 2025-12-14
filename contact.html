@@ -12,19 +12,28 @@
     <header class="main-header fixed-header">
         <nav class="left-nav">
             <ul>
-                <li><a href="index2.html">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="services.html">SERVICES</a></li>
             </ul>
         </nav>
         <div class="logo-container">
             <div class="logo-box">
-                <a href="index2.html"><img src="images/new logo.png" alt="Motions and Emotions Logo" class="new-logo"></a>
+                <a href="index.html"><img src="images/logo_transparent.png" alt="Motions and Emotions Logo" class="new-logo"></a>
             </div>
         </div>
         <nav class="right-nav">
             <ul>
-                <li><a href="#">PORTFOLIO +</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">PORTFOLIO +</a>
+                    <div class="dropdown-content">
+                        <a href="public-events.html">Public Events</a>
+                        <a href="private-events.html">Private Events</a>
+                        <a href="portraits.html">Portraits</a>
+                        <a href="landscapes-nature.html">Landscapes & Nature</a>
+                        <a href="architecture-cityscapes.html">Architecture & Cityscapes</a>
+                    </div>
+                </li>
                 <li><a href="contact.html">CONTACT</a></li>
                 <li><a href="blog-preview.html">BLOG</a></li>
             </ul>
@@ -39,7 +48,7 @@
                     <h1>Get In Touch</h1>
                     <p>I'd love to hear from you. Please fill out the form below to get in touch about your photography needs.</p>
                     <p class="future-feature-note">An appointment scheduler will be available here soon for your convenience.</p>
-                    <form action="#" method="POST" class="contact-form">
+                    <form action="mailto:asparikh.wisc@gmail.com" enctype="text/plain" class="contact-form">
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" id="name" name="name" required>
