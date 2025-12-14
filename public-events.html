@@ -38,7 +38,36 @@
                 <li><a href="blog-preview.html">BLOG</a></li>
             </ul>
         </nav>
+        <!-- Mobile Hamburger Menu Button -->
+        <button class="hamburger-menu" aria-label="Toggle navigation menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
     </header>
+
+    <!-- Full-Screen Mobile Overlay Menu -->
+    <div class="mobile-overlay-menu">
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li class="mobile-dropdown">
+                    <a href="#" class="mobile-dropbtn">PORTFOLIO</a>
+                    <ul class="mobile-dropdown-content">
+                        <li><a href="public-events.html">Public Events</a></li>
+                        <li><a href="private-events.html">Private Events</a></li>
+                        <li><a href="portraits.html">Portraits</a></li>
+                        <li><a href="landscapes-nature.html">Landscapes & Nature</a></li>
+                        <li><a href="architecture-cityscapes.html">Architecture & Cityscapes</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="blog-preview.html">BLOG</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <main class="portfolio-page-content">
         <div class="container">
@@ -88,5 +117,6 @@
         <p>&copy; 2025 Motions and Emotions by Ashay Parikh</p>
     </footer>
 
+    <script src="js/script.js"></script>
 </body>
 </html>

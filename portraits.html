@@ -5,8 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portraits - Motions and Emotions</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Portraits</h1>
+
+    <header class="main-header fixed-header">
+        <nav class="left-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+            </ul>
+        </nav>
+        <div class="logo-container">
+            <div class="logo-box">
+                <a href="index.html"><img src="assets/images/website_use/logo_transparent.webp" alt="Motions and Emotions Logo" class="new-logo"></a>
+            </div>
+        </div>
+        <nav class="right-nav">
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">PORTFOLIO +</a>
+                    <div class="dropdown-content">
+                        <a href="public-events.html">Public Events</a>
+                        <a href="private-events.html">Private Events</a>
+                        <a href="portraits.html">Portraits</a>
+                        <a href="landscapes-nature.html">Landscapes & Nature</a>
+                        <a href="architecture-cityscapes.html">Architecture & Cityscapes</a>
+                    </div>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="blog-preview.html">BLOG</a></li>
+            </ul>
+        </nav>
+        <!-- Mobile Hamburger Menu Button -->
+        <button class="hamburger-menu" aria-label="Toggle navigation menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+    </header>
+
+    <!-- Full-Screen Mobile Overlay Menu -->
+    <div class="mobile-overlay-menu">
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li class="mobile-dropdown">
+                    <a href="#" class="mobile-dropbtn">PORTFOLIO</a>
+                    <ul class="mobile-dropdown-content">
+                        <li><a href="public-events.html">Public Events</a></li>
+                        <li><a href="private-events.html">Private Events</a></li>
+                        <li><a href="portraits.html">Portraits</a></li>
+                        <li><a href="landscapes-nature.html">Landscapes & Nature</a></li>
+                        <li><a href="architecture-cityscapes.html">Architecture & Cityscapes</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="blog-preview.html">BLOG</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main class="portfolio-page-content">
+        <div class="container">
+            <h1 class="portfolio-main-title">Portraits</h1>
+            <div class="portfolio-grid">
+                <!-- Portfolio items will go here -->
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer-bottom">
+        <p>&copy; 2025 Motions and Emotions by Ashay Parikh</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
