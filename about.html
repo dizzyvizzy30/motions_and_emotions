@@ -38,14 +38,43 @@
                 <li><a href="blog-preview.html">BLOG</a></li>
             </ul>
         </nav>
+        <!-- Mobile Hamburger Menu Button -->
+        <button class="hamburger-menu" aria-label="Toggle navigation menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
     </header>
+
+    <!-- Full-Screen Mobile Overlay Menu -->
+    <div class="mobile-overlay-menu">
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li class="mobile-dropdown">
+                    <a href="#" class="mobile-dropbtn">PORTFOLIO</a>
+                    <ul class="mobile-dropdown-content">
+                        <li><a href="public-events.html">Public Events</a></li>
+                        <li><a href="private-events.html">Private Events</a></li>
+                        <li><a href="portraits.html">Portraits</a></li>
+                        <li><a href="landscapes-nature.html">Landscapes & Nature</a></li>
+                        <li><a href="architecture-cityscapes.html">Architecture & Cityscapes</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="blog-preview.html">BLOG</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <main class="about-page-content">
         <!-- Top Section -->
         <section class="about-section about-top">
             <div class="about-image-placeholder">
-                <img src="assets/images/website_use/about-me-ashay-image" alt="About Ashay Image 1" class="about-image active">
-                <img src="assets/images/about-me-ashay-image-2.webp" alt="About Ashay Image 2" class="about-image">
+                <img src="assets/images/website_use/about-me- top section.webp" alt="About Ashay Image 1" class="about-image active">
+                <img src="assets/images/website_use/about-me-ashay-image-2.webp" alt="About Ashay Image 2" class="about-image">
             </div>
             <div class="about-text-content">
                 <h2>Hi, it's me Ashay!</h2>
@@ -72,7 +101,9 @@
                 <p>This ambition extends deeply into developing bespoke photography tools and apps. I'm constantly experimenting with cutting-edge technology to enhance the art and science of visual storytelling. My goal is to create intuitive applications that capture dynamic scenes and tools that seamlessly blend the raw emotion of a moment with technical perfection, allowing for truly impactful narratives.</p>
                 <p>Ultimately, my ambition is also to share this passion and knowledge, building a vibrant community around the craft. I'm actively creating insightful content—from tutorials on advanced photography techniques to deep dives into the science behind a perfect shot, and insights into developing your own innovative photography tools. Expect new apps, streamlined workflows, and engaging content, all designed to elevate our collective craft. This is my ambition: to inspire and be inspired by the beautiful interplay of motions and emotions.</p>
             </div>
-            <div class="about-image-placeholder"></div>
+            <div class="about-image-placeholder">
+                <img src="assets/images/website_use/about me bottom section.jpeg" alt="Ashay's Ambition" class="about-image-static">
+            </div>
         </section>
     </main>
 
@@ -80,5 +111,6 @@
         <p>&copy; 2025 Motions and Emotions by Ashay Parikh</p>
     </footer>
 
+    <script src="js/script.js"></script>
 </body>
 </html>
