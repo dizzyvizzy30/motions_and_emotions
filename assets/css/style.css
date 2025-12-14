@@ -1,6 +1,6 @@
 /* General body and background styles */
 body.hero-background {
-    background-image: url('../images/nature/pxl_20210904_212916422.webp');
+    background-image: url('../images/website_use/pxl_20210904_212916422.webp');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -438,6 +438,22 @@ body.hero-background {
     background-color: #f0f0f0;
     border: 1px solid #ddd;
     border-radius: 4px;
+}
+
+.blog-preview-image {
+    flex: 1;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.blog-preview-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .blog-preview-content {
