@@ -1,0 +1,48 @@
+WebP Conversion Log - Tue Dec 16 12:27:15 CST 2025
+============================================
+Quality: 90%
+Dry Run: false
+New Only: false
+
+
+Folder: UNedited Garba - large gatherings -> Events_Grand_Gatherings_webp
+---
+  [CONVERTED] DSC00697.JPG -> dsc00697.webp
+  [CONVERTED] DSC00702.JPG -> dsc00702.webp
+  [CONVERTED] DSC00708.JPG -> dsc00708.webp
+  [CONVERTED] DSC00714.JPG -> dsc00714.webp
+  [CONVERTED] DSC00719.JPG -> dsc00719.webp
+  [CONVERTED] DSC00722.JPG -> dsc00722.webp
+  [CONVERTED] DSC00726.JPG -> dsc00726.webp
+  [CONVERTED] DSC00738.JPG -> dsc00738.webp
+  [CONVERTED] DSC00785.JPG -> dsc00785.webp
+  [CONVERTED] DSC00789.JPG -> dsc00789.webp
+  [CONVERTED] DSC00794.JPG -> dsc00794.webp
+  [CONVERTED] DSC00796.JPG -> dsc00796.webp
+  [CONVERTED] DSC00956.JPG -> dsc00956.webp
+  [CONVERTED] DSC00965.JPG -> dsc00965.webp
+  [CONVERTED] DSC00970.JPG -> dsc00970.webp
+  [CONVERTED] DSC01013.JPG -> dsc01013.webp
+  [CONVERTED] DSC01033.JPG -> dsc01033.webp
+  [CONVERTED] DSC01042.JPG -> dsc01042.webp
+  [CONVERTED] DSC01044.JPG -> dsc01044.webp
+  [CONVERTED] DSC01047.JPG -> dsc01047.webp
+  [CONVERTED] DSC01069.JPG -> dsc01069.webp
+  [CONVERTED] DSC01105.JPG -> dsc01105.webp
+  [CONVERTED] DSC01110.JPG -> dsc01110.webp
+  [CONVERTED] DSC01119.JPG -> dsc01119.webp
+  [CONVERTED] DSC01152.JPG -> dsc01152.webp
+  [CONVERTED] DSC01154.JPG -> dsc01154.webp
+  [CONVERTED] DSC01175.JPG -> dsc01175.webp
+  [CONVERTED] DSC01218.JPG -> dsc01218.webp
+  [CONVERTED] DSC01220.JPG -> dsc01220.webp
+  [CONVERTED] DSC01224.JPG -> dsc01224.webp
+  [CONVERTED] DSC01271.JPG -> dsc01271.webp
+
+============================================
+SUMMARY
+============================================
+Converted:            31
+Skipped (exists):     0
+Skipped (no mapping): 0
+Errors:               0

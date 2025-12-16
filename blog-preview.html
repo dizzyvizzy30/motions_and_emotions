@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog - Motions and Emotions</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/album-grid.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -51,61 +52,96 @@
         </nav>
     </div>
 
-    <main class="blog-page-content">
+    <!-- ============================================
+         HERO SECTION - Full Viewport
+         ============================================ -->
+    <section class="blog-hero">
+        <div class="blog-hero-content">
+            <h1 class="blog-hero-title">The Blog</h1>
+            <p class="blog-hero-subtitle">Stories Behind the Lens</p>
+            <p class="blog-hero-statement">Technical insights, creative journeys, and the art of capturing moments.</p>
+        </div>
+        <div class="blog-hero-scroll">
+            <span>Scroll to explore</span>
+            <div class="blog-hero-arrow"></div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         BLOG CONTENT - Modern Card Grid
+         ============================================ -->
+    <main class="blog-page-content blog-page-content--modern">
         <div class="container">
-            <h1 class="blog-main-title">From the Blog</h1>
 
-            <article class="blog-preview">
-                <div class="blog-preview-image">
-                    <img src="assets/images/website_use/blogs/blue-angels.webp" alt="Blue Angels">
+            <!-- Featured Post -->
+            <article class="blog-card blog-card--featured">
+                <div class="blog-card-image">
+                    <img src="assets/images/website_use/blogs/airshow-chicago.webp" alt="Blue Angels at Chicago Air Show">
+                    <div class="blog-card-category">Featured</div>
                 </div>
-                <div class="blog-preview-content">
-                    <h2>The Science of Speed: Photographing the Blue Angels</h2>
-                    <h3>A Technical Look at High-Speed Aviation Photography</h3>
-                    <p>Capturing the iconic diamond formation of the Blue Angels requires more than just a quick trigger finger; it demands a deep understanding of physics and optics. The challenge lies in freezing jets moving at hundreds of miles per hour while conveying their immense speed. This involves a precise calculation of shutter speed in relation to the aircraft's velocity and distance, combined with a smooth panning motion that is perfected through practice. Understanding the math behind focal length and field of view is critical for framing these dynamic subjects, ensuring they remain sharp and defined against the vast sky.</p>
-                    <p>Achieving a perfect exposure in high-contrast daylight conditions is a significant hurdle. Camera settings must be meticulously balanced—a fast shutter speed to freeze motion, a narrow aperture for sharpness, and a low ISO to maintain image quality. In this environment, the sky becomes a brilliant, overpowering light source. Managing this requires careful metering and often underexposing to retain detail in the clouds and the aircraft's fuselage. Furthermore, air show safety protocols dictate positioning, forcing photographers to adapt their compositions and work within designated zones to get the shot without compromising safety.</p>
-                    <p class="read-more">Explore the intersection of science and art in high-speed photography. Full article coming soon.</p>
+                <div class="blog-card-content">
+                    <h2 class="blog-card-title">The Science of Speed: Photographing the Blue Angels</h2>
+                    <p class="blog-card-subtitle">A Technical Look at High-Speed Aviation Photography</p>
+                    <p class="blog-card-excerpt">Capturing the iconic diamond formation of the Blue Angels requires more than just a quick trigger finger; it demands a deep understanding of physics and optics. The challenge lies in freezing jets moving at hundreds of miles per hour while conveying their immense speed.</p>
+                    <div class="blog-card-meta">
+                        <span class="blog-card-date">Coming Soon</span>
+                        <a href="#" class="blog-card-link">Read More</a>
+                    </div>
                 </div>
             </article>
 
-            <article class="blog-preview">
-                <div class="blog-preview-image">
-                    <img src="assets/images/website_use/blogs/chicago_henge.webp" alt="Chicago Henge" class="rotate-90">
-                </div>
-                <div class="blog-preview-content">
-                    <h2>Chasing the Sun: A Guide to Capturing Chicago Henge</h2>
-                    <h3>Planning, Patience, and a Little Bit of Luck</h3>
-                    <p>Chicago Henge is a stunning urban phenomenon where the rising or setting sun aligns perfectly with the city's east-west street grid, creating a spectacular display of light and shadow. This event occurs twice a year, during the weeks surrounding the spring and fall equinoxes, offering a limited window for photographers. Successful capture depends on meticulous planning, from scouting the best vantage points to understanding the precise timing of the alignment. The choice of lens is crucial; a telephoto lens can compress the scene and make the sun appear larger and more dramatic, while a wider lens can emphasize the vastness of the urban canyon.</p>
-                    <p>Beyond timing, framing the sun between Chicago's iconic skyscrapers requires creative composition. Dealing with reflections from glass facades, managing the rapidly changing light, and navigating large crowds are all part of the challenge. A successful Chicago Henge photograph tells a story—one of patience, technical skill, and a vision for capturing the city in a unique and ephemeral moment. Exploring different angles, using foreground elements for scale, and bracketing exposures are all techniques that can lead to a truly exceptional image.</p>
-                    <p class="read-more">Discover the secrets to capturing this beautiful urban alignment. Full article coming soon.</p>
-                </div>
-            </article>
+            <!-- Blog Grid -->
+            <div class="blog-grid">
 
-            <article class="blog-preview">
-                <div class="blog-preview-image">
-                    <img src="assets/images/website_use/blogs/moonrise.webp" alt="Moonrise">
-                </div>
-                <div class="blog-preview-content">
-                    <h2>Mastering Lunar Shots: PhotoPills and the Art of Moon Photography</h2>
-                    <h3>Precision Planning for Celestial Captures</h3>
-                    <p>Capturing the moon with breathtaking clarity and perfect alignment transforms a simple photograph into a planned masterpiece. This demanding genre of photography hinges on meticulous preparation, leveraging tools like PhotoPills to predict the moon's trajectory, phase, and precise timing relative to your chosen foreground. Understanding key parameters—from specific dates and accurate moonrise/moonset times to optimal camera angles and compositions—is crucial. The right focal length combined with careful consideration of the moon's position in relation to your subject ensures a harmonious and impactful image.</p>
-                    <p>Success in moon photography is a race against fleeting moments. The moon's rapid movement and the dramatic changes in ambient light during sunrise or sunset windows demand a highly responsive approach. Photographers must have their gear precisely configured, including the right lens, sturdy tripod, and remote shutter release. Often, having three distinct setups ready—one for the wide shot, one for a tighter composition, and one for experimental framing—can make the difference. Each setup must be calibrated for exposure, focus, and white balance, allowing for swift transitions as the celestial event unfolds in seconds.</p>
-                    <p class="read-more">Plan your next lunar masterpiece with scientific precision. Full article coming soon.</p>
-                </div>
-            </article>
+                <article class="blog-card">
+                    <div class="blog-card-image">
+                        <img src="assets/images/website_use/blogs/Chicago-Henge-2.webp" alt="Chicago Henge">
+                        <div class="blog-card-category">Urban</div>
+                    </div>
+                    <div class="blog-card-content">
+                        <h2 class="blog-card-title">Chasing the Sun: A Guide to Capturing Chicago Henge</h2>
+                        <p class="blog-card-subtitle">Planning, Patience, and a Little Bit of Luck</p>
+                        <p class="blog-card-excerpt">Chicago Henge is a stunning urban phenomenon where the rising or setting sun aligns perfectly with the city's east-west street grid, creating a spectacular display of light and shadow.</p>
+                        <div class="blog-card-meta">
+                            <span class="blog-card-date">Coming Soon</span>
+                            <a href="#" class="blog-card-link">Read More</a>
+                        </div>
+                    </div>
+                </article>
 
-            <article class="blog-preview">
-                <div class="blog-preview-image">
-                    <img src="assets/images/website_use/blogs/lunar-eclipse.webp" alt="Lunar Eclipse">
-                </div>
-                <div class="blog-preview-content">
-                    <h2>Capturing Celestial Spectacles: Photographing a Total Lunar Eclipse</h2>
-                    <h3>From Blood Moon to Star Trails</h3>
-                    <p>A total lunar eclipse offers photographers a unique opportunity to capture a celestial ballet, transforming the familiar full moon into a mesmerizing "Blood Moon." Unlike solar eclipses, lunar eclipses are safe to view and photograph directly, yet they present their own set of technical challenges. The dramatically shifting light conditions, from the bright full moon to the dim, coppery glow of totality, require constant camera adjustments. Understanding exposure bracketing, managing noise at high ISOs, and choosing the right focal length are critical for revealing the subtle colors and textures of the eclipsed moon.</p>
-                    <p>Beyond the technicalities, capturing the essence of a lunar eclipse involves creative storytelling. Photographers often aim to include foreground elements—silhouetted landscapes, architectural structures, or even star trails—to add context and scale to the celestial event. Time-lapse photography can be particularly effective, showcasing the moon's gradual transformation through Earth's shadow. Precision in planning, often using apps to predict timing and visibility from specific locations, is paramount to being in the right place at the right time to witness and document this astronomical wonder.</p>
-                    <p class="read-more">Unravel the mysteries of the cosmos through your lens. Full article coming soon.</p>
-                </div>
-            </article>
+                <article class="blog-card">
+                    <div class="blog-card-image">
+                        <img src="assets/images/website_use/blogs/moonrise.webp" alt="Moonrise">
+                        <div class="blog-card-category">Astrophotography</div>
+                    </div>
+                    <div class="blog-card-content">
+                        <h2 class="blog-card-title">Mastering Lunar Shots: PhotoPills and the Art of Moon Photography</h2>
+                        <p class="blog-card-subtitle">Precision Planning for Celestial Captures</p>
+                        <p class="blog-card-excerpt">Capturing the moon with breathtaking clarity and perfect alignment transforms a simple photograph into a planned masterpiece. This demanding genre hinges on meticulous preparation.</p>
+                        <div class="blog-card-meta">
+                            <span class="blog-card-date">Coming Soon</span>
+                            <a href="#" class="blog-card-link">Read More</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-card-image">
+                        <img src="assets/images/website_use/blogs/lunar-eclipse.webp" alt="Lunar Eclipse">
+                        <div class="blog-card-category">Astrophotography</div>
+                    </div>
+                    <div class="blog-card-content">
+                        <h2 class="blog-card-title">Capturing Celestial Spectacles: Photographing a Total Lunar Eclipse</h2>
+                        <p class="blog-card-subtitle">From Blood Moon to Star Trails</p>
+                        <p class="blog-card-excerpt">A total lunar eclipse offers photographers a unique opportunity to capture a celestial ballet, transforming the familiar full moon into a mesmerizing "Blood Moon."</p>
+                        <div class="blog-card-meta">
+                            <span class="blog-card-date">Coming Soon</span>
+                            <a href="#" class="blog-card-link">Read More</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
 
         </div>
     </main>
@@ -113,6 +149,9 @@
     <footer class="main-footer-bottom">
         <p>&copy; 2025 Motions and Emotions by Ashay Parikh</p>
     </footer>
+
+    <!-- Floating Book Now Button -->
+    <a href="contact.html" class="floating-book-btn">BOOK NOW</a>
 
     <script src="js/script.js"></script>
 </body>

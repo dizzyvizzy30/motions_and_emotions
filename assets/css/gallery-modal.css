@@ -104,39 +104,83 @@ body.pc-modal-open {
 }
 
 /* ============================================
-   MASONRY GRID GALLERY (New Layout)
+   MASONRY GRID GALLERY (Irregular Layout)
 ============================================ */
 .pc-gallery-grid {
     flex-grow: 1;
     overflow-y: auto;
     overflow-x: hidden;
-    padding: 20px 40px;
+    padding: 20px 30px;
 }
 
 .pc-gallery-masonry {
-    column-count: 4;
-    column-gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 8px; /* Small row height for fine control */
+    gap: 12px;
 }
 
 .pc-gallery-item {
-    break-inside: avoid;
-    margin-bottom: 15px;
     cursor: pointer;
     overflow: hidden;
-    border-radius: 4px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 3px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+    position: relative;
 }
 
 .pc-gallery-item:hover {
-    transform: scale(1.02);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    transform: scale(1.015);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+    z-index: 2;
 }
 
 .pc-gallery-item img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     display: block;
-    border-radius: 4px;
+    border-radius: 3px;
+}
+
+/* ============================================
+   IRREGULAR SIZE VARIATIONS
+   Creates organic, Pinterest-style layout
+============================================ */
+
+/* Extra Small - compact squares */
+.pc-gallery-item--xs {
+    grid-row: span 15;
+}
+
+/* Small - slightly taller */
+.pc-gallery-item--sm {
+    grid-row: span 20;
+}
+
+/* Medium - standard size */
+.pc-gallery-item--md {
+    grid-row: span 28;
+}
+
+/* Large - prominent images */
+.pc-gallery-item--lg {
+    grid-row: span 35;
+}
+
+/* Extra Large - hero/feature images */
+.pc-gallery-item--xl {
+    grid-row: span 45;
+}
+
+/* Wide variations - span multiple columns */
+.pc-gallery-item--wide {
+    grid-column: span 2;
+    grid-row: span 25;
+}
+
+.pc-gallery-item--wide-tall {
+    grid-column: span 2;
+    grid-row: span 38;
 }
 
 /* Placeholder for images not yet loaded */
@@ -147,6 +191,51 @@ body.pc-modal-open {
     color: #666;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
+    grid-column: 1 / -1;
+}
+
+/* ============================================
+   4-COLUMN MASONRY LAYOUT (CSS Columns)
+   For albums like Grand Gatherings - respects
+   original image orientation, no cropping
+============================================ */
+.pc-gallery-masonry--columns {
+    display: block;
+    column-count: 4;
+    column-gap: 12px;
+}
+
+.pc-gallery-masonry--columns .pc-gallery-item {
+    break-inside: avoid;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.pc-gallery-masonry--columns .pc-gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Responsive for columns layout */
+@media (max-width: 1024px) {
+    .pc-gallery-masonry--columns {
+        column-count: 3;
+        column-gap: 10px;
+    }
+    .pc-gallery-masonry--columns .pc-gallery-item {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .pc-gallery-masonry--columns {
+        column-count: 2;
+        column-gap: 8px;
+    }
+    .pc-gallery-masonry--columns .pc-gallery-item {
+        margin-bottom: 8px;
+    }
 }
 
 /* ============================================
@@ -395,12 +484,22 @@ body.pc-modal-open {
 ============================================ */
 @media (max-width: 1024px) {
     .pc-gallery-masonry {
-        column-count: 3;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
     }
 
     .pc-gallery-grid {
-        padding: 15px 25px;
+        padding: 15px 20px;
     }
+
+    /* Adjust sizes for 3-column layout */
+    .pc-gallery-item--xs { grid-row: span 12; }
+    .pc-gallery-item--sm { grid-row: span 16; }
+    .pc-gallery-item--md { grid-row: span 22; }
+    .pc-gallery-item--lg { grid-row: span 28; }
+    .pc-gallery-item--xl { grid-row: span 35; }
+    .pc-gallery-item--wide { grid-row: span 20; }
+    .pc-gallery-item--wide-tall { grid-row: span 30; }
 
     .pc-lightbox-nav {
         width: 45px;
@@ -443,17 +542,28 @@ body.pc-modal-open {
 ============================================ */
 @media (max-width: 600px) {
     .pc-gallery-masonry {
-        column-count: 2;
-        column-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
     }
 
     .pc-gallery-grid {
-        padding: 10px 15px;
+        padding: 10px 12px;
     }
 
-    .pc-gallery-item {
-        margin-bottom: 10px;
+    /* Adjust sizes for 2-column layout */
+    .pc-gallery-item--xs { grid-row: span 10; }
+    .pc-gallery-item--sm { grid-row: span 14; }
+    .pc-gallery-item--md { grid-row: span 18; }
+    .pc-gallery-item--lg { grid-row: span 24; }
+    .pc-gallery-item--xl { grid-row: span 30; }
+
+    /* Wide items become single column on mobile */
+    .pc-gallery-item--wide,
+    .pc-gallery-item--wide-tall {
+        grid-column: span 1;
     }
+    .pc-gallery-item--wide { grid-row: span 16; }
+    .pc-gallery-item--wide-tall { grid-row: span 22; }
 
     .pc-lightbox-close {
         top: 15px;

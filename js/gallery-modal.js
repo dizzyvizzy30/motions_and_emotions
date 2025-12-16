@@ -23,45 +23,220 @@
     // ============================================
 
     const albumImages = {
-        // Portfolio Albums - Modern 3-Card Layout
-        'chicago-public-events': [
-            { src: 'assets/images/portfolio/chicago-public-events/1.webp', alt: 'Chicago public event' },
-            { src: 'assets/images/portfolio/chicago-public-events/2.webp', alt: 'Chicago public event' }
-        ],
-        'nature-landscape': [
-            { src: 'assets/images/portfolio/nature-landscape/1.webp', alt: 'Nature landscape' },
-            { src: 'assets/images/portfolio/nature-landscape/2.webp', alt: 'Nature landscape' }
-        ],
-        'paranormal': [
-            { src: 'assets/images/portfolio/paranormal/1.webp', alt: 'Paranormal capture' },
-            { src: 'assets/images/portfolio/paranormal/2.webp', alt: 'Paranormal capture' }
+        // ==========================================
+        // PORTFOLIO ALBUMS (3 cards on portfolio.html)
+        // ==========================================
+
+        'chicago-events': [
+            // Air Show 2024 - Day 1 (Aug 10) - Non-portrait
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc03950.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc03961.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc03986.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc04061.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc04113.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc04185.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc04192.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc04233.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc04233-2.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc04241.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc04272.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc04293.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc04302.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc04384.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc04412.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc04787.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc04839.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc04925.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc05013.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-dsc05067.webp', alt: 'Chicago Air Show 2024' },
+            // Air Show 2024 - Day 2 (Aug 11) - Non-portrait
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-dsc05117.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-dsc05129.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-dsc05159.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-dsc05165.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-dsc05168.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-dsc05320.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-dsc05472.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-dsc05525.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-dsc05582.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-dsc05668.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-dsc05671.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-dsc05772.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-dsc05773.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-dsc05774.webp', alt: 'Chicago Air Show 2024' },
+            // Air Show - Portrait/People shots (with -p-)
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-p-dsc03990.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-p-dsc04092.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-p-dsc04097.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-p-dsc05031.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-p-dsc05034.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-p-dsc05097.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240810-p-dsc05098.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-p-dsc05155.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-p-dsc05183.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-p-dsc05341.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-p-dsc05350.webp', alt: 'Chicago Air Show 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240811-p-dsc05351.webp', alt: 'Chicago Air Show 2024' },
+            // Other Chicago Events
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240818-dsc06184.webp', alt: 'Chicago Event' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240818-dsc06184-2.webp', alt: 'Chicago Event' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20241115-dsc08537.webp', alt: 'Chicago Event' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/1000024975.webp', alt: 'Chicago Event' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/1000024976.webp', alt: 'Chicago Event' },
+            // Skyscrapers & Architecture (March 19-22, 2025)
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240319-dsc00537.webp', alt: 'Chicago Skyline' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240319-dsc00545.webp', alt: 'Chicago Skyline' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240319-dsc00546.webp', alt: 'Chicago Skyline' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240319-dsc00611.webp', alt: 'Chicago Skyline' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20240319-dsc00678.webp', alt: 'Chicago Skyline' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20250320-dsc08991.webp', alt: 'Chicago Skyline' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20250320-dsc09004.webp', alt: 'Chicago Skyline' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20250321-dsc09188.webp', alt: 'Chicago Architecture' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20250321-dsc09203.webp', alt: 'Chicago Architecture' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20250321-dsc09206.webp', alt: 'Chicago Architecture' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20250322-dsc09345.webp', alt: 'Chicago Skyline' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20250322-dsc09371.webp', alt: 'Chicago Skyline' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20250322-dsc09374.webp', alt: 'Chicago Skyline' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20250322-dsc09446.webp', alt: 'Chicago Skyline' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20250322-dsc09458.webp', alt: 'Chicago Skyline' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20221015-pxl_211305263.webp', alt: 'Chicago Architecture' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20221015-pxl_211319151.webp', alt: 'Chicago Architecture' },
+            { src: 'assets/images/portfolio_use/Portfolio_Chicago_Events_webp/20221015-pxl_211327799.webp', alt: 'Chicago Architecture' }
         ],
 
-        // Events Albums - Modern 4-Card Layout
-        'new-beginnings': [
-            { src: 'assets/images/portfolio_use/engagement_webp/ilce-7rm4a-(422).webp', alt: 'Engagement photo 1' },
-            { src: 'assets/images/portfolio_use/engagement_webp/ilce-7rm4a-(590).webp', alt: 'Engagement photo 2' },
-            { src: 'assets/images/portfolio_use/engagement_webp/ilce-7rm4a-(642).webp', alt: 'Engagement photo 3' },
-            { src: 'assets/images/portfolio_use/engagement_webp/ilce-7rm4a-(662).webp', alt: 'Engagement photo 4' },
-            { src: 'assets/images/portfolio_use/engagement_webp/ilce-7rm4a-(666).webp', alt: 'Engagement photo 5' },
-            { src: 'assets/images/portfolio_use/engagement_webp/ilce-7rm4a-(770).webp', alt: 'Engagement photo 6' },
-            { src: 'assets/images/portfolio_use/engagement_webp/ilce-7rm4a-(778).webp', alt: 'Engagement photo 7' },
-            { src: 'assets/images/portfolio_use/engagement_webp/ilce-7rm4a-(814).webp', alt: 'Engagement photo 8' },
-            { src: 'assets/images/portfolio_use/engagement_webp/ilce-7rm4a-(822).webp', alt: 'Engagement photo 9' },
-            { src: 'assets/images/portfolio_use/engagement_webp/ilce-7rm4a-(854).webp', alt: 'Engagement photo 10' },
-            { src: 'assets/images/portfolio_use/engagement_webp/dsc02424.webp', alt: 'Engagement photo 11' }
+        'nature-landscape': [
+            // Fall Colors - Featured at top
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/fall_color.webp', alt: 'Fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/fall_color_2.webp', alt: 'Fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241017-dsc08450.webp', alt: 'Fall colors 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241017-dsc08470.webp', alt: 'Fall colors 2024' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241017-dsc08475.webp', alt: 'Fall colors 2024' },
+            // Door County Fall Colors
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241014-dsc08198.webp', alt: 'Door County fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241014-dsc08199.webp', alt: 'Door County fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241014-dsc08204.webp', alt: 'Door County fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241014-dsc08204-2.webp', alt: 'Door County fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241014-dsc08207.webp', alt: 'Door County fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241014-dsc08207-2.webp', alt: 'Door County fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241014-dsc08263.webp', alt: 'Door County fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241014-dsc08291.webp', alt: 'Door County fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241014-dsc08324.webp', alt: 'Door County fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241015-dsc08375.webp', alt: 'Door County fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241015-dsc08378.webp', alt: 'Door County fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241015-dsc08383.webp', alt: 'Door County fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241015-dsc08400.webp', alt: 'Door County fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241015-dsc08421.webp', alt: 'Door County fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241015-dsc08430.webp', alt: 'Door County fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241015-dsc08438.webp', alt: 'Door County fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241015-dsc08438-2.webp', alt: 'Door County fall colors' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20241015-dsc08439-2.webp', alt: 'Door County fall colors' },
+            // Other Nature & Landscape
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20210904-pxl_210052822.webp', alt: 'Nature landscape' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20210904-pxl_212916422.webp', alt: 'Nature landscape' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20210904-pxl_212920244.webp', alt: 'Nature landscape' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20211008-img_202137.webp', alt: 'Nature landscape' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/20240818-dsc06184-2.webp', alt: 'Nature landscape' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/dsc00537.webp', alt: 'Nature landscape' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/dsc00545.webp', alt: 'Nature landscape' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/dsc00546.webp', alt: 'Nature landscape' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/dsc00932.webp', alt: 'Nature landscape' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/dsc00938.webp', alt: 'Nature landscape' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/dsc00947_1.webp', alt: 'Nature landscape' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/dsc02424.webp', alt: 'Nature landscape' },
+            { src: 'assets/images/portfolio_use/Portfolio_Nature_Landscape_webp/1000019342.webp', alt: 'Nature landscape' }
         ],
-        'large-events': [
-            { src: 'assets/images/events/large-events/1.webp', alt: 'Large event photo' },
-            { src: 'assets/images/events/large-events/2.webp', alt: 'Festive celebration' }
+
+        'abstract': [
+            { src: 'assets/images/portfolio_use/Portfolio_Abstract_webp/20241014-dsc08204.webp', alt: 'Abstract photography' },
+            { src: 'assets/images/portfolio_use/Portfolio_Abstract_webp/20241014-dsc08204-2.webp', alt: 'Abstract photography' },
+            { src: 'assets/images/portfolio_use/Portfolio_Abstract_webp/20241014-dsc08207.webp', alt: 'Abstract photography' },
+            { src: 'assets/images/portfolio_use/Portfolio_Abstract_webp/20241014-dsc08207-2.webp', alt: 'Abstract photography' },
+            { src: 'assets/images/portfolio_use/Portfolio_Abstract_webp/20241015-dsc08438.webp', alt: 'Abstract photography' },
+            { src: 'assets/images/portfolio_use/Portfolio_Abstract_webp/20241015-dsc08438-2.webp', alt: 'Abstract photography' },
+            { src: 'assets/images/portfolio_use/Portfolio_Abstract_webp/20241015-dsc08439.webp', alt: 'Abstract photography' }
         ],
-        'home-studio': [
-            { src: 'assets/images/events/home-studio/1.webp', alt: 'Home shoot' },
-            { src: 'assets/images/events/home-studio/2.webp', alt: 'Studio portrait' }
+
+        // ==========================================
+        // EVENTS ALBUMS (4 cards on events.html)
+        // ==========================================
+
+        'portrait-sessions': [
+            { src: 'assets/images/portfolio_use/Events_Portrait_Sessions_webp/baby%201%20-02.webp', alt: 'Portrait session' },
+            { src: 'assets/images/portfolio_use/Events_Portrait_Sessions_webp/baby%201%20-03.webp', alt: 'Portrait session' },
+            { src: 'assets/images/portfolio_use/Events_Portrait_Sessions_webp/baby%201%20-04.webp', alt: 'Portrait session' },
+            { src: 'assets/images/portfolio_use/Events_Portrait_Sessions_webp/baby%201%20-05.webp', alt: 'Portrait session' },
+            { src: 'assets/images/portfolio_use/Events_Portrait_Sessions_webp/baby%201%20-07.webp', alt: 'Portrait session' },
+            { src: 'assets/images/portfolio_use/Events_Portrait_Sessions_webp/baby%201%20-08.webp', alt: 'Portrait session' },
+            { src: 'assets/images/portfolio_use/Events_Portrait_Sessions_webp/baby%201%20-10.webp', alt: 'Portrait session' },
+            { src: 'assets/images/portfolio_use/Events_Portrait_Sessions_webp/baby%201%20-11.webp', alt: 'Portrait session' },
+            { src: 'assets/images/portfolio_use/Events_Portrait_Sessions_webp/baby%201%20-12.webp', alt: 'Portrait session' },
+            { src: 'assets/images/portfolio_use/Events_Portrait_Sessions_webp/dsc01840.webp', alt: 'Portrait session' }
         ],
-        'destination': [
-            { src: 'assets/images/events/destination/1.webp', alt: 'Destination shoot' },
-            { src: 'assets/images/events/destination/2.webp', alt: 'Travel photography' }
+
+        'private-events': [
+            // Landscape images
+            { src: 'assets/images/portfolio_use/Events_Private_Events_webp/landscape-dsc04855.webp', alt: 'Private event', orientation: 'landscape' },
+            { src: 'assets/images/portfolio_use/Events_Private_Events_webp/landscape-ilce-7rm4a-(770).webp', alt: 'Private event', orientation: 'landscape' },
+            { src: 'assets/images/portfolio_use/Events_Private_Events_webp/landscape-ilce-7rm4a-(778).webp', alt: 'Private event', orientation: 'landscape' },
+            // Portrait images
+            { src: 'assets/images/portfolio_use/Events_Private_Events_webp/portrait -20250322-dsc09463.webp', alt: 'Private event', orientation: 'portrait' },
+            { src: 'assets/images/portfolio_use/Events_Private_Events_webp/portrait -20250322-dsc09467.webp', alt: 'Private event', orientation: 'portrait' },
+            { src: 'assets/images/portfolio_use/Events_Private_Events_webp/portrait -dsc02424 copy.webp', alt: 'Private event', orientation: 'portrait' },
+            { src: 'assets/images/portfolio_use/Events_Private_Events_webp/portrait -dsc04810.webp', alt: 'Private event', orientation: 'portrait' },
+            { src: 'assets/images/portfolio_use/Events_Private_Events_webp/portrait -dsc04850.webp', alt: 'Private event', orientation: 'portrait' },
+            { src: 'assets/images/portfolio_use/Events_Private_Events_webp/portrait -ilce-7rm4a-(422).webp', alt: 'Private event', orientation: 'portrait' },
+            { src: 'assets/images/portfolio_use/Events_Private_Events_webp/portrait -ilce-7rm4a-(590).webp', alt: 'Private event', orientation: 'portrait' },
+            { src: 'assets/images/portfolio_use/Events_Private_Events_webp/portrait -ilce-7rm4a-(642).webp', alt: 'Private event', orientation: 'portrait' },
+            { src: 'assets/images/portfolio_use/Events_Private_Events_webp/portrait -ilce-7rm4a-(662).webp', alt: 'Private event', orientation: 'portrait' },
+            { src: 'assets/images/portfolio_use/Events_Private_Events_webp/portrait -ilce-7rm4a-(666).webp', alt: 'Private event', orientation: 'portrait' },
+            { src: 'assets/images/portfolio_use/Events_Private_Events_webp/portrait -ilce-7rm4a-(814).webp', alt: 'Private event', orientation: 'portrait' },
+            { src: 'assets/images/portfolio_use/Events_Private_Events_webp/portrait -ilce-7rm4a-(822).webp', alt: 'Private event', orientation: 'portrait' },
+            { src: 'assets/images/portfolio_use/Events_Private_Events_webp/portrait -ilce-7rm4a-(854).webp', alt: 'Private event', orientation: 'portrait' }
+        ],
+
+        'grand-gatherings': [
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc00697.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc00702.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc00708.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc00714.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc00719.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc00722.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc00726.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc00738.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc00785.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc00789.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc00794.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc00796.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc00956.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc00965.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc00970.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc01013.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc01033.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc01042.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc01044.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc01047.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc01069.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc01105.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc01110.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc01119.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc01152.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc01154.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc01175.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc01218.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc01220.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc01224.webp', alt: 'Garba celebration' },
+            { src: 'assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc01271.webp', alt: 'Garba celebration' }
+        ],
+
+        'destination-shoots': [
+            { src: 'assets/images/portfolio_use/Events_Destination_Shoots_webp/20241014-dsc08308.webp', alt: 'Destination shoot' },
+            { src: 'assets/images/portfolio_use/Events_Destination_Shoots_webp/20241014-dsc08330.webp', alt: 'Destination shoot' },
+            { src: 'assets/images/portfolio_use/Events_Destination_Shoots_webp/20241014-dsc08332.webp', alt: 'Destination shoot' },
+            { src: 'assets/images/portfolio_use/Events_Destination_Shoots_webp/20241015-dsc08376.webp', alt: 'Destination shoot' },
+            { src: 'assets/images/portfolio_use/Events_Destination_Shoots_webp/20241015-dsc08377.webp', alt: 'Destination shoot' },
+            { src: 'assets/images/portfolio_use/Events_Destination_Shoots_webp/20241015-dsc08405.webp', alt: 'Destination shoot' },
+            { src: 'assets/images/portfolio_use/Events_Destination_Shoots_webp/20241015-dsc08426.webp', alt: 'Destination shoot' },
+            { src: 'assets/images/portfolio_use/Events_Destination_Shoots_webp/20241015-dsc08445.webp', alt: 'Destination shoot' }
         ]
     };
 
@@ -238,6 +413,56 @@
     // MASONRY GALLERY FUNCTIONS
     // ============================================
 
+    // Size patterns for different orientations
+    const sizePatterns = {
+        // For landscape images - wider, shorter
+        landscape: ['wide', 'wide-tall', 'wide', 'lg', 'wide', 'md'],
+        // For portrait images - taller, narrower
+        portrait: ['xl', 'lg', 'xl', 'md', 'lg', 'xl', 'md', 'lg'],
+        // For unknown orientation - mixed
+        mixed: [
+            'md', 'lg', 'sm', 'xl', 'xs', 'wide', 'md', 'sm',
+            'lg', 'xs', 'md', 'wide-tall', 'sm', 'lg', 'md', 'xs',
+            'xl', 'sm', 'md', 'lg', 'xs', 'md', 'sm', 'wide',
+            'md', 'lg', 'sm', 'xs', 'md', 'lg', 'xl', 'sm'
+        ]
+    };
+
+    // Get size class based on orientation and index
+    function getSizeClass(index, totalImages, orientation) {
+        let pattern;
+
+        // Use orientation-specific pattern if provided
+        if (orientation === 'landscape') {
+            pattern = sizePatterns.landscape;
+        } else if (orientation === 'portrait') {
+            pattern = sizePatterns.portrait;
+        } else {
+            pattern = sizePatterns.mixed;
+        }
+
+        // Use modulo to cycle through pattern
+        const patternIndex = index % pattern.length;
+        let size = pattern[patternIndex];
+
+        // Add variation for larger albums
+        const positionFactor = Math.floor(index / pattern.length);
+        if (positionFactor > 0 && !orientation) {
+            const shiftedIndex = (patternIndex + positionFactor * 3) % pattern.length;
+            size = pattern[shiftedIndex];
+        }
+
+        // Prevent wide items near the end if they won't fit well
+        if ((size === 'wide' || size === 'wide-tall') && index >= totalImages - 2) {
+            size = orientation === 'landscape' ? 'lg' : 'md';
+        }
+
+        return `pc-gallery-item--${size}`;
+    }
+
+    // Albums that use simple 4-column CSS columns layout (no cropping)
+    const columnsLayoutAlbums = ['grand-gatherings'];
+
     function loadMasonryGallery(albumId) {
         const masonry = document.getElementById('pc-gallery-masonry');
         if (!masonry) return;
@@ -246,27 +471,66 @@
         const images = albumImages[albumId] || [];
         currentImages = images;
 
-        // Clear existing content
+        // Clear existing content and classes
         masonry.innerHTML = '';
+        masonry.classList.remove('pc-gallery-masonry--columns');
 
         if (images.length === 0) {
             masonry.innerHTML = '<div class="pc-gallery-placeholder">Images coming soon</div>';
             return;
         }
 
-        // Create gallery items
-        images.forEach((image, index) => {
-            const item = document.createElement('div');
-            item.className = 'pc-gallery-item';
-            item.innerHTML = `
-                <img src="${image.src}"
-                     alt="${image.alt}"
-                     loading="lazy"
-                     onerror="this.parentElement.style.display='none'">
-            `;
-            item.addEventListener('click', () => openLightbox(index));
-            masonry.appendChild(item);
-        });
+        // Check if this album uses simple columns layout
+        const useColumnsLayout = columnsLayoutAlbums.includes(albumId);
+
+        if (useColumnsLayout) {
+            // Apply CSS columns class for natural aspect ratio layout
+            masonry.classList.add('pc-gallery-masonry--columns');
+
+            // Create simple gallery items without size classes
+            images.forEach((image, index) => {
+                const item = document.createElement('div');
+                item.className = 'pc-gallery-item';
+                item.innerHTML = `
+                    <img src="${image.src}"
+                         alt="${image.alt}"
+                         loading="lazy"
+                         onerror="this.parentElement.style.display='none'">
+                `;
+                item.addEventListener('click', () => openLightbox(index));
+                masonry.appendChild(item);
+            });
+        } else {
+            // Use grid layout with orientation-based sizes
+            let landscapeIndex = 0;
+            let portraitIndex = 0;
+            let mixedIndex = 0;
+
+            images.forEach((image, index) => {
+                const item = document.createElement('div');
+                let sizeClass;
+
+                // Use orientation from image data if available
+                if (image.orientation === 'landscape') {
+                    sizeClass = getSizeClass(landscapeIndex++, images.length, 'landscape');
+                } else if (image.orientation === 'portrait') {
+                    sizeClass = getSizeClass(portraitIndex++, images.length, 'portrait');
+                } else {
+                    // Fall back to mixed pattern for images without orientation
+                    sizeClass = getSizeClass(mixedIndex++, images.length, null);
+                }
+
+                item.className = `pc-gallery-item ${sizeClass}`;
+                item.innerHTML = `
+                    <img src="${image.src}"
+                         alt="${image.alt}"
+                         loading="lazy"
+                         onerror="this.parentElement.style.display='none'">
+                `;
+                item.addEventListener('click', () => openLightbox(index));
+                masonry.appendChild(item);
+            });
+        }
     }
 
     // ============================================
@@ -348,13 +612,60 @@
     }
 
     // ============================================
+    // AUTOMATIC CARD FLIP SEQUENCE
+    // ============================================
+
+    const INITIAL_DELAY = 2000;      // 2 seconds after page load
+    const FLIP_INTERVAL = 4000;      // 4 seconds between sequences
+    const DOMINO_DELAY = 200;        // 200ms between each card starting (domino effect)
+    let flipCards = [];
+
+    function initCardFlipSequence() {
+        // Get all flip-enabled cards on the page
+        flipCards = Array.from(document.querySelectorAll('.pc-album-card--flip'));
+
+        if (flipCards.length === 0) return;
+
+        // Start the sequence after initial delay
+        setTimeout(startFlipSequence, INITIAL_DELAY);
+    }
+
+    function startFlipSequence() {
+        // Domino effect - each card starts flipping shortly after the previous
+        flipCards.forEach((card, index) => {
+            setTimeout(() => {
+                card.classList.add('flipped');
+            }, index * DOMINO_DELAY);
+        });
+
+        // Calculate when all cards will be flipped, then wait and restart
+        const totalDominoTime = flipCards.length * DOMINO_DELAY;
+
+        setTimeout(() => {
+            // Unflip all cards with domino effect
+            flipCards.forEach((card, index) => {
+                setTimeout(() => {
+                    card.classList.remove('flipped');
+                }, index * DOMINO_DELAY);
+            });
+
+            // Wait then start again
+            setTimeout(startFlipSequence, FLIP_INTERVAL);
+        }, totalDominoTime + FLIP_INTERVAL);
+    }
+
+    // ============================================
     // RUN ON DOM READY
     // ============================================
 
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
+        document.addEventListener('DOMContentLoaded', () => {
+            init();
+            initCardFlipSequence();
+        });
     } else {
         init();
+        initCardFlipSequence();
     }
 
 })();

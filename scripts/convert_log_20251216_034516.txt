@@ -1,0 +1,96 @@
+WebP Conversion Log - Tue Dec 16 03:45:16 CST 2025
+============================================
+Quality: 90%
+Dry Run: false
+New Only: false
+
+
+Folder: air-show -> Portfolio_Chicago_Events_webp
+---
+  [CONVERTED] 1000024975.jpg -> 1000024975.webp
+  [CONVERTED] 1000024976.jpg -> 1000024976.webp
+  [CONVERTED] 20240810-DSC03950.jpg -> 20240810-dsc03950.webp
+  [CONVERTED] 20240810-DSC03961.jpg -> 20240810-dsc03961.webp
+  [CONVERTED] 20240810-DSC03986.jpg -> 20240810-dsc03986.webp
+  [CONVERTED] 20240810-DSC03990.jpg -> 20240810-dsc03990.webp
+  [CONVERTED] 20240810-DSC04061.jpg -> 20240810-dsc04061.webp
+  [CONVERTED] 20240810-DSC04092.jpg -> 20240810-dsc04092.webp
+  [CONVERTED] 20240810-DSC04097.jpg -> 20240810-dsc04097.webp
+  [CONVERTED] 20240810-DSC04113.jpg -> 20240810-dsc04113.webp
+  [CONVERTED] 20240810-DSC04185.jpg -> 20240810-dsc04185.webp
+  [CONVERTED] 20240810-DSC04192.jpg -> 20240810-dsc04192.webp
+  [CONVERTED] 20240810-DSC04233-2.jpg -> 20240810-dsc04233-2.webp
+  [CONVERTED] 20240810-DSC04233.jpg -> 20240810-dsc04233.webp
+  [CONVERTED] 20240810-DSC04241.jpg -> 20240810-dsc04241.webp
+  [CONVERTED] 20240810-DSC04272.jpg -> 20240810-dsc04272.webp
+  [CONVERTED] 20240810-DSC04293.jpg -> 20240810-dsc04293.webp
+  [CONVERTED] 20240810-DSC04412.jpg -> 20240810-dsc04412.webp
+  [CONVERTED] 20240811-DSC05772.jpg -> 20240811-dsc05772.webp
+  [CONVERTED] 20240811-DSC05773.jpg -> 20240811-dsc05773.webp
+  [CONVERTED] 20240811-DSC05774.jpg -> 20240811-dsc05774.webp
+  [CONVERTED] 20240818-DSC06184-2.jpg -> 20240818-dsc06184-2.webp
+  [CONVERTED] 20240818-DSC06184.jpg -> 20240818-dsc06184.webp
+
+Folder: Home -> Events_Portrait_Sessions_webp
+---
+  [CONVERTED] BABY 1 -02.jpg -> baby 1 -02.webp
+  [CONVERTED] BABY 1 -03.jpg -> baby 1 -03.webp
+  [CONVERTED] BABY 1 -04.jpg -> baby 1 -04.webp
+  [CONVERTED] BABY 1 -05.jpg -> baby 1 -05.webp
+  [CONVERTED] BABY 1 -07.jpg -> baby 1 -07.webp
+  [CONVERTED] BABY 1 -08.jpg -> baby 1 -08.webp
+  [CONVERTED] BABY 1 -10.jpg -> baby 1 -10.webp
+  [CONVERTED] BABY 1 -11.jpg -> baby 1 -11.webp
+  [CONVERTED] BABY 1 -12.jpg -> baby 1 -12.webp
+  [CONVERTED] DSC01840.JPG -> dsc01840.webp
+
+Folder: nature_and_landscape -> Portfolio_Nature_Landscape_webp
+---
+  [CONVERTED] 1000019342.jpg -> 1000019342.webp
+  [CONVERTED] 20210904-pxl_210052822.jpg -> 20210904-pxl_210052822.webp
+  [CONVERTED] 20210904-pxl_212916422.jpg -> 20210904-pxl_212916422.webp
+  [CONVERTED] 20210904-pxl_212920244.jpg -> 20210904-pxl_212920244.webp
+  [CONVERTED] 20211008-img_202137.jpg -> 20211008-img_202137.webp
+  [CONVERTED] 20240818-DSC06184-2.jpg -> 20240818-dsc06184-2.webp
+  [CONVERTED] dsc00537.jpg -> dsc00537.webp
+  [CONVERTED] dsc00545.jpg -> dsc00545.webp
+  [CONVERTED] dsc00546.jpg -> dsc00546.webp
+  [CONVERTED] dsc00932.jpg -> dsc00932.webp
+  [CONVERTED] dsc00938.jpg -> dsc00938.webp
+  [CONVERTED] dsc02424.jpg -> dsc02424.webp
+  [CONVERTED] Fall_color_2.jpg -> fall_color_2.webp
+  [CONVERTED] Fall_color.jpg -> fall_color.webp
+
+Folder: Private events -> Events_Private_Events_webp
+---
+  [CONVERTED] dsc04810.jpg -> dsc04810.webp
+  [CONVERTED] dsc04850.jpg -> dsc04850.webp
+  [CONVERTED] dsc04855.jpg -> dsc04855.webp
+  [CONVERTED] ilce-7rm4a-(422).jpg -> ilce-7rm4a-(422).webp
+  [CONVERTED] ilce-7rm4a-(590).jpg -> ilce-7rm4a-(590).webp
+  [CONVERTED] ilce-7rm4a-(642).jpg -> ilce-7rm4a-(642).webp
+  [CONVERTED] ilce-7rm4a-(662).jpg -> ilce-7rm4a-(662).webp
+  [CONVERTED] ilce-7rm4a-(666).jpg -> ilce-7rm4a-(666).webp
+  [CONVERTED] ilce-7rm4a-(770).jpg -> ilce-7rm4a-(770).webp
+  [CONVERTED] ilce-7rm4a-(778).jpg -> ilce-7rm4a-(778).webp
+  [CONVERTED] ilce-7rm4a-(814).jpg -> ilce-7rm4a-(814).webp
+  [CONVERTED] ilce-7rm4a-(822).jpg -> ilce-7rm4a-(822).webp
+  [CONVERTED] ilce-7rm4a-(854).jpg -> ilce-7rm4a-(854).webp
+
+Folder: sky-scrapers -> Portfolio_Chicago_Events_webp
+---
+  [CONVERTED] 20221015-pxl_211305263.jpg -> 20221015-pxl_211305263.webp
+  [CONVERTED] 20221015-pxl_211319151.jpg -> 20221015-pxl_211319151.webp
+  [CONVERTED] 20221015-pxl_211327799.jpg -> 20221015-pxl_211327799.webp
+  [CONVERTED] 20240319-DSC00611.jpg -> 20240319-dsc00611.webp
+  [CONVERTED] 20240818-DSC06184.jpg -> 20240818-dsc06184.webp
+  [CONVERTED] dsc00678_resized.jpg -> dsc00678_resized.webp
+  [CONVERTED] dsc00678.jpg -> dsc00678.webp
+
+============================================
+SUMMARY
+============================================
+Converted:            67
+Skipped (exists):     0
+Skipped (no mapping): 0
+Errors:               0
