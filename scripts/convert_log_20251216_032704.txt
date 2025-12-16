@@ -1,0 +1,17 @@
+WebP Conversion Log - Tue Dec 16 03:27:04 CST 2025
+============================================
+Quality: 90%
+Dry Run: true
+New Only: false
+
+
+Folder: air-show -> Portfolio_Chicago_Events_webp
+---
+
+============================================
+SUMMARY
+============================================
+Would convert:        0
+Skipped (exists):     0
+Skipped (no mapping): 0
+Errors:               0

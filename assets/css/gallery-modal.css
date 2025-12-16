@@ -1,0 +1,698 @@
+/* ============================================
+   GALLERY MODAL CSS - Motions and Emotions
+   ============================================
+
+   NEW FILE - Does not affect existing styles
+   All classes prefixed with 'pc-' (portfolio card)
+
+   This file handles:
+   - Fullscreen modal overlay
+   - Image carousel with navigation
+   - Close button and controls
+   - Smooth animations
+   - Optional CTA button for Events
+
+============================================ */
+
+/* ============================================
+   MODAL OVERLAY
+============================================ */
+.pc-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.pc-modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Prevent body scroll when modal is open */
+body.pc-modal-open {
+    overflow: hidden;
+}
+
+/* ============================================
+   MODAL HEADER
+============================================ */
+.pc-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    flex-shrink: 0;
+}
+
+.pc-modal-back {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.pc-modal-back:hover {
+    color: #fff;
+}
+
+.pc-modal-back-arrow {
+    font-size: 1.2rem;
+}
+
+.pc-modal-title {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.pc-modal-close {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    line-height: 1;
+}
+
+.pc-modal-close:hover {
+    color: #fff;
+    transform: rotate(90deg);
+}
+
+/* ============================================
+   MASONRY GRID GALLERY (Irregular Layout)
+============================================ */
+.pc-gallery-grid {
+    flex-grow: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px 30px;
+}
+
+.pc-gallery-masonry {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 8px; /* Small row height for fine control */
+    gap: 12px;
+}
+
+.pc-gallery-item {
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 3px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+    position: relative;
+}
+
+.pc-gallery-item:hover {
+    transform: scale(1.015);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.pc-gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 3px;
+}
+
+/* ============================================
+   IRREGULAR SIZE VARIATIONS
+   Creates organic, Pinterest-style layout
+============================================ */
+
+/* Extra Small - compact squares */
+.pc-gallery-item--xs {
+    grid-row: span 15;
+}
+
+/* Small - slightly taller */
+.pc-gallery-item--sm {
+    grid-row: span 20;
+}
+
+/* Medium - standard size */
+.pc-gallery-item--md {
+    grid-row: span 28;
+}
+
+/* Large - prominent images */
+.pc-gallery-item--lg {
+    grid-row: span 35;
+}
+
+/* Extra Large - hero/feature images */
+.pc-gallery-item--xl {
+    grid-row: span 45;
+}
+
+/* Wide variations - span multiple columns */
+.pc-gallery-item--wide {
+    grid-column: span 2;
+    grid-row: span 25;
+}
+
+.pc-gallery-item--wide-tall {
+    grid-column: span 2;
+    grid-row: span 38;
+}
+
+/* Placeholder for images not yet loaded */
+.pc-gallery-placeholder {
+    width: 100%;
+    padding: 100px 40px;
+    text-align: center;
+    color: #666;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    grid-column: 1 / -1;
+}
+
+/* ============================================
+   4-COLUMN MASONRY LAYOUT (CSS Columns)
+   For albums like Grand Gatherings - respects
+   original image orientation, no cropping
+============================================ */
+.pc-gallery-masonry--columns {
+    display: block;
+    column-count: 4;
+    column-gap: 12px;
+}
+
+.pc-gallery-masonry--columns .pc-gallery-item {
+    break-inside: avoid;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.pc-gallery-masonry--columns .pc-gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Responsive for columns layout */
+@media (max-width: 1024px) {
+    .pc-gallery-masonry--columns {
+        column-count: 3;
+        column-gap: 10px;
+    }
+    .pc-gallery-masonry--columns .pc-gallery-item {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .pc-gallery-masonry--columns {
+        column-count: 2;
+        column-gap: 8px;
+    }
+    .pc-gallery-masonry--columns .pc-gallery-item {
+        margin-bottom: 8px;
+    }
+}
+
+/* ============================================
+   LIGHTBOX (Full-size image view)
+============================================ */
+.pc-lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    z-index: 10001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.pc-lightbox.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.pc-lightbox-image {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.pc-lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    z-index: 10;
+}
+
+.pc-lightbox-close:hover {
+    transform: rotate(90deg);
+}
+
+.pc-lightbox-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transition: background 0.3s ease;
+}
+
+.pc-lightbox-nav:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.pc-lightbox-prev {
+    left: 30px;
+}
+
+.pc-lightbox-next {
+    right: 30px;
+}
+
+/* ============================================
+   LEGACY CAROUSEL (Keep for backward compatibility)
+============================================ */
+.pc-carousel {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 80px;
+    overflow: hidden;
+}
+
+.pc-carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 100%;
+    align-items: center;
+}
+
+.pc-carousel-slide {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pc-carousel-image {
+    max-width: 100%;
+    max-height: 70vh;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
+}
+
+.pc-carousel-placeholder {
+    width: 80%;
+    max-width: 800px;
+    aspect-ratio: 16 / 10;
+    background-color: #333;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.pc-carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transition: background 0.3s ease, transform 0.3s ease;
+    z-index: 10;
+}
+
+.pc-carousel-arrow:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.pc-carousel-arrow--prev {
+    left: 20px;
+}
+
+.pc-carousel-arrow--next {
+    right: 20px;
+}
+
+.pc-carousel-arrow:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.pc-carousel-arrow:disabled:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-50%);
+}
+
+.pc-carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 0;
+    flex-shrink: 0;
+}
+
+.pc-carousel-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.pc-carousel-dot:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.pc-carousel-dot.active {
+    background: #fff;
+    transform: scale(1.2);
+}
+
+/* ============================================
+   MODAL FOOTER (Optional Description + CTA)
+============================================ */
+.pc-modal-footer {
+    padding: 20px 30px 30px 30px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.pc-modal-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    line-height: 1.6;
+}
+
+/* CTA Button - For Events only */
+.pc-modal-cta {
+    display: inline-block;
+    background-color: #8B4513;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.pc-modal-cta:hover {
+    background-color: #a0522d;
+    transform: translateY(-2px);
+}
+
+/* Hide CTA on Portfolio pages */
+.pc-modal--portfolio .pc-modal-cta {
+    display: none;
+}
+
+/* ============================================
+   RESPONSIVE - Tablet
+============================================ */
+@media (max-width: 1024px) {
+    .pc-gallery-masonry {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .pc-gallery-grid {
+        padding: 15px 20px;
+    }
+
+    /* Adjust sizes for 3-column layout */
+    .pc-gallery-item--xs { grid-row: span 12; }
+    .pc-gallery-item--sm { grid-row: span 16; }
+    .pc-gallery-item--md { grid-row: span 22; }
+    .pc-gallery-item--lg { grid-row: span 28; }
+    .pc-gallery-item--xl { grid-row: span 35; }
+    .pc-gallery-item--wide { grid-row: span 20; }
+    .pc-gallery-item--wide-tall { grid-row: span 30; }
+
+    .pc-lightbox-nav {
+        width: 45px;
+        height: 45px;
+    }
+
+    .pc-lightbox-prev {
+        left: 15px;
+    }
+
+    .pc-lightbox-next {
+        right: 15px;
+    }
+
+    .pc-carousel {
+        padding: 0 60px;
+    }
+
+    .pc-carousel-arrow {
+        width: 45px;
+        height: 45px;
+        font-size: 1.3rem;
+    }
+
+    .pc-carousel-arrow--prev {
+        left: 10px;
+    }
+
+    .pc-carousel-arrow--next {
+        right: 10px;
+    }
+
+    .pc-modal-title {
+        font-size: 1.3rem;
+    }
+}
+
+/* ============================================
+   RESPONSIVE - Mobile
+============================================ */
+@media (max-width: 600px) {
+    .pc-gallery-masonry {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .pc-gallery-grid {
+        padding: 10px 12px;
+    }
+
+    /* Adjust sizes for 2-column layout */
+    .pc-gallery-item--xs { grid-row: span 10; }
+    .pc-gallery-item--sm { grid-row: span 14; }
+    .pc-gallery-item--md { grid-row: span 18; }
+    .pc-gallery-item--lg { grid-row: span 24; }
+    .pc-gallery-item--xl { grid-row: span 30; }
+
+    /* Wide items become single column on mobile */
+    .pc-gallery-item--wide,
+    .pc-gallery-item--wide-tall {
+        grid-column: span 1;
+    }
+    .pc-gallery-item--wide { grid-row: span 16; }
+    .pc-gallery-item--wide-tall { grid-row: span 22; }
+
+    .pc-lightbox-close {
+        top: 15px;
+        right: 15px;
+        font-size: 2rem;
+    }
+
+    .pc-lightbox-nav {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    .pc-lightbox-prev {
+        left: 10px;
+    }
+
+    .pc-lightbox-next {
+        right: 10px;
+    }
+
+    .pc-modal-header {
+        padding: 15px 15px;
+    }
+
+    .pc-modal-back {
+        font-size: 0.8rem;
+        padding: 8px 10px;
+    }
+
+    .pc-modal-back span:not(.pc-modal-back-arrow) {
+        display: none; /* Hide "Back" text on mobile, keep arrow */
+    }
+
+    .pc-modal-title {
+        font-size: 1.1rem;
+        padding: 0 10px;
+    }
+
+    .pc-modal-close {
+        font-size: 1.5rem;
+        padding: 8px 10px;
+    }
+
+    .pc-carousel {
+        padding: 0 15px;
+    }
+
+    .pc-carousel-arrow {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    .pc-carousel-arrow--prev {
+        left: 5px;
+    }
+
+    .pc-carousel-arrow--next {
+        right: 5px;
+    }
+
+    .pc-carousel-image {
+        max-height: 50vh;
+    }
+
+    .pc-carousel-dots {
+        padding: 15px 0;
+        gap: 8px;
+    }
+
+    .pc-carousel-dot {
+        width: 8px;
+        height: 8px;
+    }
+
+    .pc-modal-footer {
+        padding: 15px 20px 25px 20px;
+    }
+
+    .pc-modal-description {
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+
+    .pc-modal-cta {
+        font-size: 0.8rem;
+        padding: 12px 25px;
+    }
+}
+
+/* ============================================
+   ANIMATION KEYFRAMES
+============================================ */
+@keyframes pc-fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes pc-slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.pc-modal.active .pc-carousel-image {
+    animation: pc-fadeIn 0.4s ease 0.2s both;
+}
+
+.pc-modal.active .pc-modal-footer {
+    animation: pc-slideUp 0.4s ease 0.3s both;
+}
+
+/* ============================================
+   KEYBOARD NAVIGATION FOCUS STYLES
+============================================ */
+.pc-modal-close:focus,
+.pc-modal-back:focus,
+.pc-carousel-arrow:focus,
+.pc-carousel-dot:focus {
+    outline: 2px solid rgba(255, 255, 255, 0.5);
+    outline-offset: 2px;
+}

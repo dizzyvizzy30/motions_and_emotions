@@ -1,0 +1,134 @@
+Image Renaming Log - Tue Dec 16 03:20:13 CST 2025
+============================================
+Dry Run: true
+New Only: false
+
+
+Folder: air-show
+---
+  [NO DATE] 1000024975.jpg
+  [NO DATE] 1000024976.jpg
+  [SKIP] Already dated: 20240810-DSC03950.jpg
+  [SKIP] Already dated: 20240810-DSC03961.jpg
+  [SKIP] Already dated: 20240810-DSC03986.jpg
+  [SKIP] Already dated: 20240810-DSC03990.jpg
+  [SKIP] Already dated: 20240810-DSC04061.jpg
+  [SKIP] Already dated: 20240810-DSC04092.jpg
+  [SKIP] Already dated: 20240810-DSC04097.jpg
+  [SKIP] Already dated: 20240810-DSC04113.jpg
+  [SKIP] Already dated: 20240810-DSC04185.jpg
+  [SKIP] Already dated: 20240810-DSC04192.jpg
+  [SKIP] Already dated: 20240810-DSC04233-2.jpg
+  [SKIP] Already dated: 20240810-DSC04233.jpg
+  [SKIP] Already dated: 20240810-DSC04241.jpg
+  [SKIP] Already dated: 20240810-DSC04272.jpg
+  [SKIP] Already dated: 20240810-DSC04293.jpg
+  [SKIP] Already dated: 20240810-DSC04412.jpg
+  [SKIP] Already dated: 20240811-DSC05772.jpg
+  [SKIP] Already dated: 20240811-DSC05773.jpg
+  [SKIP] Already dated: 20240811-DSC05774.jpg
+  [SKIP] Already dated: 20240818-DSC06184-2.jpg
+  [SKIP] Already dated: 20240818-DSC06184.jpg
+
+Folder: Home
+---
+  [NO DATE] BABY 1 -02.jpg
+  [NO DATE] BABY 1 -03.jpg
+  [NO DATE] BABY 1 -04.jpg
+  [NO DATE] BABY 1 -05.jpg
+  [NO DATE] BABY 1 -07.jpg
+  [NO DATE] BABY 1 -08.jpg
+  [NO DATE] BABY 1 -10.jpg
+  [NO DATE] BABY 1 -11.jpg
+  [NO DATE] BABY 1 -12.jpg
+  [NO DATE] DSC01840.JPG
+
+Folder: nature_and_landscape
+---
+  [NO DATE] 1000019342.jpg
+  [SKIP] Already dated: 20240818-DSC06184-2.jpg
+  [NO DATE] dsc00537.jpg
+  [NO DATE] dsc00545.jpg
+  [NO DATE] dsc00546.jpg
+  [NO DATE] dsc00932.jpg
+  [NO DATE] dsc00938.jpg
+  [NO DATE] dsc02424.jpg
+  [NO DATE] Fall_color_2.jpg
+  [NO DATE] Fall_color.jpg
+  [DRY-RUN] img_20211008_202137.jpg -> 20211008-img_202137.jpg
+  [DRY-RUN] pxl_20210904_210052822.jpg -> 20210904-pxl_210052822.jpg
+  [DRY-RUN] pxl_20210904_212916422.jpg -> 20210904-pxl_212916422.jpg
+  [DRY-RUN] pxl_20210904_212920244.jpg -> 20210904-pxl_212920244.jpg
+
+Folder: Private events
+---
+  [NO DATE] dsc04810.jpg
+  [NO DATE] dsc04850.jpg
+  [NO DATE] dsc04855.jpg
+  [NO DATE] ilce-7rm4a-(422).jpg
+  [NO DATE] ilce-7rm4a-(590).jpg
+  [NO DATE] ilce-7rm4a-(642).jpg
+  [NO DATE] ilce-7rm4a-(662).jpg
+  [NO DATE] ilce-7rm4a-(666).jpg
+  [NO DATE] ilce-7rm4a-(770).jpg
+  [NO DATE] ilce-7rm4a-(778).jpg
+  [NO DATE] ilce-7rm4a-(814).jpg
+  [NO DATE] ilce-7rm4a-(822).jpg
+  [NO DATE] ilce-7rm4a-(854).jpg
+
+Folder: sky-scrapers
+---
+  [SKIP] Already dated: 20240319-DSC00611.jpg
+  [SKIP] Already dated: 20240818-DSC06184.jpg
+  [NO DATE] dsc00678_resized.jpg
+  [NO DATE] dsc00678.jpg
+  [DRY-RUN] pxl_20221015_211305263.jpg -> 20221015-pxl_211305263.jpg
+  [DRY-RUN] pxl_20221015_211319151.jpg -> 20221015-pxl_211319151.jpg
+  [DRY-RUN] pxl_20221015_211327799.jpg -> 20221015-pxl_211327799.jpg
+
+============================================
+SUMMARY
+============================================
+Renamed:              0
+Skipped (has date):   24
+Needs manual date:    36
+Errors:               0
+
+FILES NEEDING MANUAL DATE:
+--------------------------
+  - air-show/1000024975.jpg
+  - air-show/1000024976.jpg
+  - Home/BABY 1 -02.jpg
+  - Home/BABY 1 -03.jpg
+  - Home/BABY 1 -04.jpg
+  - Home/BABY 1 -05.jpg
+  - Home/BABY 1 -07.jpg
+  - Home/BABY 1 -08.jpg
+  - Home/BABY 1 -10.jpg
+  - Home/BABY 1 -11.jpg
+  - Home/BABY 1 -12.jpg
+  - Home/DSC01840.JPG
+  - nature_and_landscape/1000019342.jpg
+  - nature_and_landscape/dsc00537.jpg
+  - nature_and_landscape/dsc00545.jpg
+  - nature_and_landscape/dsc00546.jpg
+  - nature_and_landscape/dsc00932.jpg
+  - nature_and_landscape/dsc00938.jpg
+  - nature_and_landscape/dsc02424.jpg
+  - nature_and_landscape/Fall_color_2.jpg
+  - nature_and_landscape/Fall_color.jpg
+  - Private events/dsc04810.jpg
+  - Private events/dsc04850.jpg
+  - Private events/dsc04855.jpg
+  - Private events/ilce-7rm4a-(422).jpg
+  - Private events/ilce-7rm4a-(590).jpg
+  - Private events/ilce-7rm4a-(642).jpg
+  - Private events/ilce-7rm4a-(662).jpg
+  - Private events/ilce-7rm4a-(666).jpg
+  - Private events/ilce-7rm4a-(770).jpg
+  - Private events/ilce-7rm4a-(778).jpg
+  - Private events/ilce-7rm4a-(814).jpg
+  - Private events/ilce-7rm4a-(822).jpg
+  - Private events/ilce-7rm4a-(854).jpg
+  - sky-scrapers/dsc00678_resized.jpg
+  - sky-scrapers/dsc00678.jpg

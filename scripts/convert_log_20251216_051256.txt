@@ -1,0 +1,170 @@
+WebP Conversion Log - Tue Dec 16 05:12:56 CST 2025
+============================================
+Quality: 90%
+Dry Run: false
+New Only: true
+
+
+Folder: Abstract -> Portfolio_Abstract_webp
+---
+  [CONVERTED] 20241014-DSC08204-2.jpg -> 20241014-dsc08204-2.webp
+  [CONVERTED] 20241014-DSC08204.jpg -> 20241014-dsc08204.webp
+  [CONVERTED] 20241014-DSC08207-2.jpg -> 20241014-dsc08207-2.webp
+  [CONVERTED] 20241014-DSC08207.jpg -> 20241014-dsc08207.webp
+  [CONVERTED] 20241015-DSC08438-2.jpg -> 20241015-dsc08438-2.webp
+  [CONVERTED] 20241015-DSC08438.jpg -> 20241015-dsc08438.webp
+  [CONVERTED] 20241015-DSC08439.jpg -> 20241015-dsc08439.webp
+
+Folder: air-show -> Portfolio_Chicago_Events_webp
+---
+  [EXISTS] 1000024975.webp
+  [EXISTS] 1000024976.webp
+  [EXISTS] 20240810-dsc03950.webp
+  [EXISTS] 20240810-dsc03961.webp
+  [EXISTS] 20240810-dsc03986.webp
+  [EXISTS] 20240810-dsc03990.webp
+  [EXISTS] 20240810-dsc04061.webp
+  [EXISTS] 20240810-dsc04092.webp
+  [EXISTS] 20240810-dsc04097.webp
+  [EXISTS] 20240810-dsc04113.webp
+  [EXISTS] 20240810-dsc04185.webp
+  [EXISTS] 20240810-dsc04192.webp
+  [EXISTS] 20240810-dsc04233-2.webp
+  [EXISTS] 20240810-dsc04233.webp
+  [EXISTS] 20240810-dsc04241.webp
+  [EXISTS] 20240810-dsc04272.webp
+  [EXISTS] 20240810-dsc04293.webp
+  [EXISTS] 20240810-dsc04302.webp
+  [EXISTS] 20240810-dsc04384.webp
+  [EXISTS] 20240810-dsc04412.webp
+  [EXISTS] 20240810-dsc04787.webp
+  [EXISTS] 20240810-dsc04839.webp
+  [EXISTS] 20240810-dsc04925.webp
+  [EXISTS] 20240810-dsc05013.webp
+  [EXISTS] 20240810-dsc05031.webp
+  [EXISTS] 20240810-dsc05034.webp
+  [EXISTS] 20240810-dsc05067.webp
+  [EXISTS] 20240810-dsc05097.webp
+  [EXISTS] 20240810-dsc05098.webp
+  [EXISTS] 20240811-dsc05117.webp
+  [EXISTS] 20240811-dsc05129.webp
+  [EXISTS] 20240811-dsc05155.webp
+  [EXISTS] 20240811-dsc05159.webp
+  [EXISTS] 20240811-dsc05165.webp
+  [EXISTS] 20240811-dsc05168.webp
+  [EXISTS] 20240811-dsc05183.webp
+  [EXISTS] 20240811-dsc05320.webp
+  [EXISTS] 20240811-dsc05341.webp
+  [EXISTS] 20240811-dsc05350.webp
+  [EXISTS] 20240811-dsc05351.webp
+  [EXISTS] 20240811-dsc05472.webp
+  [EXISTS] 20240811-dsc05525.webp
+  [EXISTS] 20240811-dsc05582.webp
+  [EXISTS] 20240811-dsc05668.webp
+  [EXISTS] 20240811-dsc05671.webp
+  [EXISTS] 20240811-dsc05772.webp
+  [EXISTS] 20240811-dsc05773.webp
+  [EXISTS] 20240811-dsc05774.webp
+  [EXISTS] 20240818-dsc06184-2.webp
+  [EXISTS] 20240818-dsc06184.webp
+
+Folder: Destination -> Events_Destination_Shoots_webp
+---
+  [CONVERTED] 20241014-DSC08308.jpg -> 20241014-dsc08308.webp
+  [CONVERTED] 20241014-DSC08330.jpg -> 20241014-dsc08330.webp
+  [CONVERTED] 20241014-DSC08332.jpg -> 20241014-dsc08332.webp
+  [CONVERTED] 20241015-DSC08376.jpg -> 20241015-dsc08376.webp
+  [CONVERTED] 20241015-DSC08377.jpg -> 20241015-dsc08377.webp
+  [CONVERTED] 20241015-DSC08405.jpg -> 20241015-dsc08405.webp
+  [CONVERTED] 20241015-DSC08426.jpg -> 20241015-dsc08426.webp
+  [CONVERTED] 20241015-DSC08445.jpg -> 20241015-dsc08445.webp
+
+Folder: Fall colors - door county -> Portfolio_Nature_Landscape_webp
+---
+  [CONVERTED] 20241014-DSC08198.jpg -> 20241014-dsc08198.webp
+  [CONVERTED] 20241014-DSC08199.jpg -> 20241014-dsc08199.webp
+  [CONVERTED] 20241014-DSC08204-2.jpg -> 20241014-dsc08204-2.webp
+  [CONVERTED] 20241014-DSC08204.jpg -> 20241014-dsc08204.webp
+  [CONVERTED] 20241014-DSC08207-2.jpg -> 20241014-dsc08207-2.webp
+  [CONVERTED] 20241014-DSC08207.jpg -> 20241014-dsc08207.webp
+  [CONVERTED] 20241014-DSC08263.jpg -> 20241014-dsc08263.webp
+  [CONVERTED] 20241014-DSC08291.jpg -> 20241014-dsc08291.webp
+  [CONVERTED] 20241014-DSC08324.jpg -> 20241014-dsc08324.webp
+  [CONVERTED] 20241015-DSC08375.jpg -> 20241015-dsc08375.webp
+  [CONVERTED] 20241015-DSC08378.jpg -> 20241015-dsc08378.webp
+  [CONVERTED] 20241015-DSC08383.jpg -> 20241015-dsc08383.webp
+  [CONVERTED] 20241015-DSC08400.jpg -> 20241015-dsc08400.webp
+  [CONVERTED] 20241015-DSC08421.jpg -> 20241015-dsc08421.webp
+  [CONVERTED] 20241015-DSC08430.jpg -> 20241015-dsc08430.webp
+  [CONVERTED] 20241015-DSC08438-2.jpg -> 20241015-dsc08438-2.webp
+  [CONVERTED] 20241015-DSC08438.jpg -> 20241015-dsc08438.webp
+  [CONVERTED] 20241015-DSC08439-2.jpg -> 20241015-dsc08439-2.webp
+
+Folder: Home -> Events_Portrait_Sessions_webp
+---
+  [EXISTS] baby 1 -02.webp
+  [EXISTS] baby 1 -03.webp
+  [EXISTS] baby 1 -04.webp
+  [EXISTS] baby 1 -05.webp
+  [EXISTS] baby 1 -07.webp
+  [EXISTS] baby 1 -08.webp
+  [EXISTS] baby 1 -10.webp
+  [EXISTS] baby 1 -11.webp
+  [EXISTS] baby 1 -12.webp
+  [EXISTS] dsc01840.webp
+
+Folder: nature_and_landscape -> Portfolio_Nature_Landscape_webp
+---
+  [EXISTS] 1000019342.webp
+  [EXISTS] 20210904-pxl_210052822.webp
+  [EXISTS] 20210904-pxl_212916422.webp
+  [EXISTS] 20210904-pxl_212920244.webp
+  [EXISTS] 20211008-img_202137.webp
+  [EXISTS] 20240818-dsc06184-2.webp
+  [EXISTS] 20241017-dsc08450.webp
+  [EXISTS] 20241017-dsc08470.webp
+  [EXISTS] 20241017-dsc08475.webp
+  [EXISTS] dsc00537.webp
+  [EXISTS] dsc00545.webp
+  [EXISTS] dsc00546.webp
+  [EXISTS] dsc00932.webp
+  [EXISTS] dsc00938.webp
+  [EXISTS] dsc02424.webp
+  [EXISTS] fall_color_2.webp
+  [EXISTS] fall_color.webp
+
+Folder: Private events -> Events_Private_Events_webp
+---
+  [EXISTS] dsc04810.webp
+  [EXISTS] dsc04850.webp
+  [EXISTS] dsc04855.webp
+  [EXISTS] ilce-7rm4a-(422).webp
+  [EXISTS] ilce-7rm4a-(590).webp
+  [EXISTS] ilce-7rm4a-(642).webp
+  [EXISTS] ilce-7rm4a-(662).webp
+  [EXISTS] ilce-7rm4a-(666).webp
+  [EXISTS] ilce-7rm4a-(770).webp
+  [EXISTS] ilce-7rm4a-(778).webp
+  [EXISTS] ilce-7rm4a-(814).webp
+  [EXISTS] ilce-7rm4a-(822).webp
+  [EXISTS] ilce-7rm4a-(854).webp
+
+Folder: sky-scrapers -> Portfolio_Chicago_Events_webp
+---
+  [EXISTS] 20221015-pxl_211305263.webp
+  [EXISTS] 20221015-pxl_211319151.webp
+  [EXISTS] 20221015-pxl_211327799.webp
+  [EXISTS] 20240319-dsc00611.webp
+  [EXISTS] 20240818-dsc06184.webp
+  [EXISTS] 20241115-dsc08537.webp
+  [EXISTS] 20250320-dsc08991.webp
+  [EXISTS] dsc00678_resized.webp
+  [EXISTS] dsc00678.webp
+
+============================================
+SUMMARY
+============================================
+Converted:            33
+Skipped (exists):     99
+Skipped (no mapping): 0
+Errors:               0

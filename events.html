@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Motions and Emotions</title>
+
+    <!-- Existing Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- NEW: Album Grid & Modal Styles (modular, namespaced) -->
+    <link rel="stylesheet" href="assets/css/album-grid.css">
+    <link rel="stylesheet" href="assets/css/gallery-modal.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ============================================
+         HEADER - Same navigation as all pages
+         ============================================ -->
+    <header class="main-header fixed-header">
+        <nav class="left-nav">
+            <ul>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+            </ul>
+        </nav>
+        <div class="logo-container">
+            <div class="logo-box">
+                <a href="index.html"><img src="assets/images/website_use/logo_transparent.webp" alt="Motions and Emotions Logo" class="new-logo"></a>
+            </div>
+        </div>
+        <nav class="right-nav">
+            <ul>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="blog-preview.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!-- Mobile Hamburger Menu Button -->
+        <button class="hamburger-menu" aria-label="Toggle navigation menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+    </header>
+
+    <!-- Full-Screen Mobile Overlay Menu -->
+    <div class="mobile-overlay-menu">
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="blog-preview.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- ============================================
+         HERO SECTION - Full Viewport
+         ============================================ -->
+    <section class="events-hero">
+        <div class="events-hero-content">
+            <h1 class="events-hero-title">Event Gallery</h1>
+            <p class="events-hero-subtitle">Capturing Your Special Moments</p>
+            <p class="events-hero-statement">Every celebration tells a story worth preserving forever.</p>
+        </div>
+        <div class="events-hero-scroll">
+            <span>Scroll to explore</span>
+            <div class="events-hero-arrow"></div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         MAIN CONTENT - Events Album Grid
+         ============================================ -->
+    <main class="pc-page pc-page--no-top-padding">
+        <div class="pc-page-container">
+
+            <!-- Album Card Grid - Modern 4-Card Layout -->
+            <div class="pc-album-grid pc-album-grid--four">
+
+                <!-- Album 1: Portrait Sessions -->
+                <article class="pc-album-card pc-album-card--tall pc-album-card--flip"
+                         data-album="portrait-sessions"
+                         data-title="Portrait Sessions"
+                         data-type="events"
+                         data-description="Individuals, couples, families, maternity, and lifestyle sessions.">
+                    <div class="pc-album-card-inner">
+                        <div class="pc-album-face pc-album-face--front">
+                            <div class="pc-album-image"
+                                 style="background-image: url('assets/images/website_use/blogs/in-home-shoot.webp');">
+                            </div>
+                            <div class="pc-album-overlay"></div>
+                            <div class="pc-album-content">
+                                <h2 class="pc-album-title">Portrait Sessions</h2>
+                                <p class="pc-album-count">View Gallery</p>
+                            </div>
+                        </div>
+                        <div class="pc-album-face pc-album-face--back">
+                            <div class="pc-album-image"
+                                 style="background-image: url('assets/images/portfolio_use/Events_Portrait_Sessions_webp/baby%201%20-05.webp');">
+                            </div>
+                            <div class="pc-album-overlay"></div>
+                            <div class="pc-album-content">
+                                <h2 class="pc-album-title">Portrait Sessions</h2>
+                                <p class="pc-album-count">View Gallery</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Album 2: Private Events -->
+                <article class="pc-album-card pc-album-card--tall pc-album-card--flip"
+                         data-album="private-events"
+                         data-title="Private Events"
+                         data-type="events"
+                         data-description="Small, private events, birthdays, anniversaries, family get-togethers, baby shower.">
+                    <div class="pc-album-card-inner">
+                        <div class="pc-album-face pc-album-face--front">
+                            <div class="pc-album-image"
+                                 style="background-image: url('assets/images/portfolio_use/Events_Private_Events_webp/landscape-ilce-7rm4a-(778).webp');">
+                            </div>
+                            <div class="pc-album-overlay"></div>
+                            <div class="pc-album-content">
+                                <h2 class="pc-album-title">Private Events</h2>
+                                <p class="pc-album-count">View Gallery</p>
+                            </div>
+                        </div>
+                        <div class="pc-album-face pc-album-face--back">
+                            <div class="pc-album-image"
+                                 style="background-image: url('assets/images/portfolio_use/Events_Private_Events_webp/portrait -ilce-7rm4a-(590).webp');">
+                            </div>
+                            <div class="pc-album-overlay"></div>
+                            <div class="pc-album-content">
+                                <h2 class="pc-album-title">Private Events</h2>
+                                <p class="pc-album-count">View Gallery</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Album 3: Grand Gatherings -->
+                <article class="pc-album-card pc-album-card--tall pc-album-card--flip"
+                         data-album="grand-gatherings"
+                         data-title="Grand Gatherings"
+                         data-type="events"
+                         data-description="Large-scale events, major celebrations, and extensive corporate coverage.">
+                    <div class="pc-album-card-inner">
+                        <div class="pc-album-face pc-album-face--front">
+                            <div class="pc-album-image"
+                                 style="background-image: url('assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc00722.webp');">
+                            </div>
+                            <div class="pc-album-overlay"></div>
+                            <div class="pc-album-content">
+                                <h2 class="pc-album-title">Grand Gatherings</h2>
+                                <p class="pc-album-count">View Gallery</p>
+                            </div>
+                        </div>
+                        <div class="pc-album-face pc-album-face--back">
+                            <div class="pc-album-image"
+                                 style="background-image: url('assets/images/portfolio_use/Events_Grand_Gatherings_webp/dsc01119.webp');">
+                            </div>
+                            <div class="pc-album-overlay"></div>
+                            <div class="pc-album-content">
+                                <h2 class="pc-album-title">Grand Gatherings</h2>
+                                <p class="pc-album-count">View Gallery</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Album 4: Destination Shoots -->
+                <article class="pc-album-card pc-album-card--tall pc-album-card--flip"
+                         data-album="destination-shoots"
+                         data-title="Destination Shoots"
+                         data-type="events"
+                         data-description="Sessions requiring travel outside the local area.">
+                    <div class="pc-album-card-inner">
+                        <div class="pc-album-face pc-album-face--front">
+                            <div class="pc-album-image"
+                                 style="background-image: url('assets/images/website_use/blogs/proposal.webp');">
+                            </div>
+                            <div class="pc-album-overlay"></div>
+                            <div class="pc-album-content">
+                                <h2 class="pc-album-title">Destination Shoots</h2>
+                                <p class="pc-album-count">View Gallery</p>
+                            </div>
+                        </div>
+                        <div class="pc-album-face pc-album-face--back">
+                            <div class="pc-album-image"
+                                 style="background-image: url('assets/images/portfolio_use/Events_Destination_Shoots_webp/20241015-dsc08405.webp');">
+                            </div>
+                            <div class="pc-album-overlay"></div>
+                            <div class="pc-album-content">
+                                <h2 class="pc-album-title">Destination Shoots</h2>
+                                <p class="pc-album-count">View Gallery</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+            <!-- End Album Grid -->
+
+        </div>
+    </main>
+
+    <!-- ============================================
+         MODAL - Fullscreen Gallery Carousel
+         This is the modal structure for viewing album images.
+         JavaScript will populate and control this.
+
+         NOTE: For Events, the CTA button IS visible
+         (no .pc-modal--portfolio class)
+         ============================================ -->
+    <div class="pc-modal pc-modal--events" id="pc-gallery-modal" aria-hidden="true">
+
+        <!-- Modal Header -->
+        <header class="pc-modal-header">
+            <button class="pc-modal-back" id="pc-modal-back">
+                <span class="pc-modal-back-arrow">←</span>
+                <span>Back</span>
+            </button>
+            <h2 class="pc-modal-title" id="pc-modal-title">Album Title</h2>
+            <button class="pc-modal-close" id="pc-modal-close" aria-label="Close gallery">×</button>
+        </header>
+
+        <!-- Carousel -->
+        <div class="pc-carousel">
+            <button class="pc-carousel-arrow pc-carousel-arrow--prev" id="pc-carousel-prev" aria-label="Previous image">‹</button>
+
+            <div class="pc-carousel-track" id="pc-carousel-track">
+                <!-- Slides will be dynamically inserted here by JavaScript -->
+                <!-- Example slide structure:
+                <div class="pc-carousel-slide">
+                    <img src="path/to/image.webp" alt="Image description" class="pc-carousel-image">
+                </div>
+                -->
+
+                <!-- Placeholder for when no images are loaded yet -->
+                <div class="pc-carousel-slide">
+                    <div class="pc-carousel-placeholder">
+                        Images coming soon
+                    </div>
+                </div>
+            </div>
+
+            <button class="pc-carousel-arrow pc-carousel-arrow--next" id="pc-carousel-next" aria-label="Next image">›</button>
+        </div>
+
+        <!-- Carousel Dots -->
+        <div class="pc-carousel-dots" id="pc-carousel-dots">
+            <!-- Dots will be dynamically inserted here by JavaScript -->
+            <button class="pc-carousel-dot active" aria-label="Slide 1"></button>
+        </div>
+
+        <!-- Modal Footer with CTA Button (visible for Events) -->
+        <footer class="pc-modal-footer">
+            <p class="pc-modal-description" id="pc-modal-description">
+                Let me capture your special moments.
+            </p>
+            <!-- CTA Button - Visible for Events -->
+            <a href="contact.html" class="pc-modal-cta">Book This Event</a>
+        </footer>
+
+    </div>
+    <!-- End Modal -->
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="footer-instagram">Instagram</a>
+        </div>
+        <p class="footer-copyright">&copy; 2025 Motions and Emotions by Ashay Parikh</p>
+    </footer>
+
+    <!-- ============================================
+         SCRIPTS
+         ============================================ -->
+    <!-- Floating Book Now Button -->
+    <a href="contact.html" class="floating-book-btn">BOOK NOW</a>
+
+    <!-- Existing site JavaScript -->
+    <script src="js/script.js"></script>
+
+    <!-- NEW: Gallery Modal JavaScript (will be created in Part E) -->
+    <script src="js/gallery-modal.js"></script>
+
+</body>
+</html>

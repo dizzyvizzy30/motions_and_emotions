@@ -1,0 +1,96 @@
+WebP Conversion Log - Tue Dec 16 03:27:52 CST 2025
+============================================
+Quality: 90%
+Dry Run: true
+New Only: false
+
+
+Folder: air-show -> Portfolio_Chicago_Events_webp
+---
+  [DRY-RUN] 1000024975.jpg -> 1000024975.webp
+  [DRY-RUN] 1000024976.jpg -> 1000024976.webp
+  [DRY-RUN] 20240810-DSC03950.jpg -> 20240810-dsc03950.webp
+  [DRY-RUN] 20240810-DSC03961.jpg -> 20240810-dsc03961.webp
+  [DRY-RUN] 20240810-DSC03986.jpg -> 20240810-dsc03986.webp
+  [DRY-RUN] 20240810-DSC03990.jpg -> 20240810-dsc03990.webp
+  [DRY-RUN] 20240810-DSC04061.jpg -> 20240810-dsc04061.webp
+  [DRY-RUN] 20240810-DSC04092.jpg -> 20240810-dsc04092.webp
+  [DRY-RUN] 20240810-DSC04097.jpg -> 20240810-dsc04097.webp
+  [DRY-RUN] 20240810-DSC04113.jpg -> 20240810-dsc04113.webp
+  [DRY-RUN] 20240810-DSC04185.jpg -> 20240810-dsc04185.webp
+  [DRY-RUN] 20240810-DSC04192.jpg -> 20240810-dsc04192.webp
+  [DRY-RUN] 20240810-DSC04233-2.jpg -> 20240810-dsc04233-2.webp
+  [DRY-RUN] 20240810-DSC04233.jpg -> 20240810-dsc04233.webp
+  [DRY-RUN] 20240810-DSC04241.jpg -> 20240810-dsc04241.webp
+  [DRY-RUN] 20240810-DSC04272.jpg -> 20240810-dsc04272.webp
+  [DRY-RUN] 20240810-DSC04293.jpg -> 20240810-dsc04293.webp
+  [DRY-RUN] 20240810-DSC04412.jpg -> 20240810-dsc04412.webp
+  [DRY-RUN] 20240811-DSC05772.jpg -> 20240811-dsc05772.webp
+  [DRY-RUN] 20240811-DSC05773.jpg -> 20240811-dsc05773.webp
+  [DRY-RUN] 20240811-DSC05774.jpg -> 20240811-dsc05774.webp
+  [DRY-RUN] 20240818-DSC06184-2.jpg -> 20240818-dsc06184-2.webp
+  [DRY-RUN] 20240818-DSC06184.jpg -> 20240818-dsc06184.webp
+
+Folder: Home -> Events_Portrait_Sessions_webp
+---
+  [DRY-RUN] BABY 1 -02.jpg -> baby 1 -02.webp
+  [DRY-RUN] BABY 1 -03.jpg -> baby 1 -03.webp
+  [DRY-RUN] BABY 1 -04.jpg -> baby 1 -04.webp
+  [DRY-RUN] BABY 1 -05.jpg -> baby 1 -05.webp
+  [DRY-RUN] BABY 1 -07.jpg -> baby 1 -07.webp
+  [DRY-RUN] BABY 1 -08.jpg -> baby 1 -08.webp
+  [DRY-RUN] BABY 1 -10.jpg -> baby 1 -10.webp
+  [DRY-RUN] BABY 1 -11.jpg -> baby 1 -11.webp
+  [DRY-RUN] BABY 1 -12.jpg -> baby 1 -12.webp
+  [DRY-RUN] DSC01840.JPG -> dsc01840.webp
+
+Folder: nature_and_landscape -> Portfolio_Nature_Landscape_webp
+---
+  [DRY-RUN] 1000019342.jpg -> 1000019342.webp
+  [DRY-RUN] 20210904-pxl_210052822.jpg -> 20210904-pxl_210052822.webp
+  [DRY-RUN] 20210904-pxl_212916422.jpg -> 20210904-pxl_212916422.webp
+  [DRY-RUN] 20210904-pxl_212920244.jpg -> 20210904-pxl_212920244.webp
+  [DRY-RUN] 20211008-img_202137.jpg -> 20211008-img_202137.webp
+  [DRY-RUN] 20240818-DSC06184-2.jpg -> 20240818-dsc06184-2.webp
+  [DRY-RUN] dsc00537.jpg -> dsc00537.webp
+  [DRY-RUN] dsc00545.jpg -> dsc00545.webp
+  [DRY-RUN] dsc00546.jpg -> dsc00546.webp
+  [DRY-RUN] dsc00932.jpg -> dsc00932.webp
+  [DRY-RUN] dsc00938.jpg -> dsc00938.webp
+  [DRY-RUN] dsc02424.jpg -> dsc02424.webp
+  [DRY-RUN] Fall_color_2.jpg -> fall_color_2.webp
+  [DRY-RUN] Fall_color.jpg -> fall_color.webp
+
+Folder: Private events -> Events_Private_Events_webp
+---
+  [DRY-RUN] dsc04810.jpg -> dsc04810.webp
+  [DRY-RUN] dsc04850.jpg -> dsc04850.webp
+  [DRY-RUN] dsc04855.jpg -> dsc04855.webp
+  [DRY-RUN] ilce-7rm4a-(422).jpg -> ilce-7rm4a-(422).webp
+  [DRY-RUN] ilce-7rm4a-(590).jpg -> ilce-7rm4a-(590).webp
+  [DRY-RUN] ilce-7rm4a-(642).jpg -> ilce-7rm4a-(642).webp
+  [DRY-RUN] ilce-7rm4a-(662).jpg -> ilce-7rm4a-(662).webp
+  [DRY-RUN] ilce-7rm4a-(666).jpg -> ilce-7rm4a-(666).webp
+  [DRY-RUN] ilce-7rm4a-(770).jpg -> ilce-7rm4a-(770).webp
+  [DRY-RUN] ilce-7rm4a-(778).jpg -> ilce-7rm4a-(778).webp
+  [DRY-RUN] ilce-7rm4a-(814).jpg -> ilce-7rm4a-(814).webp
+  [DRY-RUN] ilce-7rm4a-(822).jpg -> ilce-7rm4a-(822).webp
+  [DRY-RUN] ilce-7rm4a-(854).jpg -> ilce-7rm4a-(854).webp
+
+Folder: sky-scrapers -> Portfolio_Chicago_Events_webp
+---
+  [DRY-RUN] 20221015-pxl_211305263.jpg -> 20221015-pxl_211305263.webp
+  [DRY-RUN] 20221015-pxl_211319151.jpg -> 20221015-pxl_211319151.webp
+  [DRY-RUN] 20221015-pxl_211327799.jpg -> 20221015-pxl_211327799.webp
+  [DRY-RUN] 20240319-DSC00611.jpg -> 20240319-dsc00611.webp
+  [DRY-RUN] 20240818-DSC06184.jpg -> 20240818-dsc06184.webp
+  [DRY-RUN] dsc00678_resized.jpg -> dsc00678_resized.webp
+  [DRY-RUN] dsc00678.jpg -> dsc00678.webp
+
+============================================
+SUMMARY
+============================================
+Converted:            67
+Skipped (exists):     0
+Skipped (no mapping): 0
+Errors:               0
